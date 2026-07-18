@@ -1,5 +1,130 @@
 # Decisions
 
+## 2026-07-18  levelshots  Decision: harvest wm-qwtf-client's existing captures, don't run the capture pipeline ourselves
+
+Context:
+  Levelshots (menu preview images) were flagged deferred in phase 1.
+  Investigating turned up that `wm-qwtf-client` already has a real, working
+  automated capture pipeline (`tools/build/gen-levelshots.sh`: disposable
+  server + spectator client + Xvfb framebuffer grab, camera positioned from
+  the map's own spawn entities) with 58 maps' worth of output already
+  sitting on disk — 55 overlap with this repo's scope.
+
+Options:
+  A. Harvest the 55 existing images only: a plain file copy, same pattern
+     as the bsp/texture harvest, zero new risk.
+  B. Also run the capture pipeline itself for the remaining ~50 maps to
+     fill the gap completely.
+
+Chosen: A only
+
+Reason:
+  Harvesting existing files is a safe, read-only copy — consistent with
+  everything else this repo's harvest step does. Running the actual
+  capture pipeline means spinning up disposable game servers (ports,
+  Xvfb, a real gamecode binary) — a heavier operation with its own risk
+  profile that wasn't asked for and deserves its own explicit go-ahead,
+  not a quiet bolt-on to an already-large session.
+
+Reversibility:
+  Easy — the 50 remaining maps are just as capturable later by running
+  that existing script directly; nothing here forecloses it.
+
+---
+
+## 2026-07-18  content  Decision: "most played" ranking from real match data, not invented lore
+
+Context:
+  "Make the maps special/ours" (deferred from phase 1) needed a concrete,
+  achievable first step without inventing content not grounded in fact.
+
+Options:
+  A. Write per-map lore/descriptions — risks inventing facts not grounded
+     in anything real.
+  B. Surface real logs.qwtf.live match-count data as a "most played"
+     ranking — already had this data from the phase-1 crossref step, zero
+     new scraping needed.
+  C. Skip entirely, leave for a human.
+
+Chosen: B
+
+Reason:
+  Gives the repo real character grounded entirely in fact, reuses data
+  already fetched, zero additional load on logs.qwtf.live.
+
+Reversibility:
+  Easy — a generated README section, trivially regenerated or removed.
+
+---
+
+## 2026-07-18  loc-generation  Decision: defer mining real MVD chat text for community-native loc names
+
+Context:
+  Investigated mining real team-chat text from logs.qwtf.live match demos
+  to seed/validate `.loc` names, since QWTF Bots (a sibling, read-only
+  project) already has an MVD-parsing primitive
+  (`python/duel_eval/human_mvd.py`'s `iter_printable_runs`) that extracts
+  printable text runs from demo files.
+
+Options:
+  A. Port/reuse that primitive, download real match demos from
+     logs.qwtf.live per map, extract chat text, correlate with player
+     position at time of chat to place named locations.
+  B. Same but skip position correlation, just surface word-frequency as a
+     weak supplementary signal.
+  C. Explicitly defer — don't attempt this pass.
+
+Chosen: C
+
+Reason:
+  The existing primitive only extracts text, not position — correlating
+  chat text with an actual coordinate (needed to place a name at a
+  location, the whole point of a `.loc` file) would require implementing
+  real MVD protocol position-frame parsing from scratch, a substantial
+  standalone effort, not a bolt-on. It would also mean downloading many
+  real match demos from logs.qwtf.live (extra scraping load on a small
+  community-run site) for uncertain payoff. Correctly scoped as its own
+  future project, not squeezed into this session.
+
+Reversibility:
+  Easy — nothing built or half-built to unwind; `human_mvd.py` is
+  untouched (read-only sibling project), and this decision is purely
+  "didn't start."
+
+---
+
+## 2026-07-18  asset-sourcing  Decision: check maps.quakeworld.nu for the 5 originally-missing maps
+
+Context:
+  box4, elusive, fracturex2, h4rdcoremini, nightshacksb5 existed in no
+  local workspace tree.
+
+Options:
+  A. Leave all 5 as gaps, don't reach outside the workspace.
+  B. Check maps.quakeworld.nu (a real, well-known "every known
+     QuakeWorld map" archive, confirmed via its own raw directory listing
+     of 6604 files) for exact filename matches, add only confirmed hits.
+
+Chosen: B — found and added box4.bsp (confirmed valid bsp29 magic bytes
+on download); confirmed elusive/fracturex2/h4rdcoremini/nightshacksb5 are
+genuinely absent from that archive too, not just this workspace.
+
+Reason:
+  A real, well-established community archive is a legitimate source for
+  community Quake maps, and checking cost nothing extra once the
+  crossref/harvest pipeline already existed. Kept explicit: box4's
+  map.yml records `asset_provenance: external-archive` (vs
+  `workspace-local` for everything else) and README calls it out
+  separately, since this provenance is weaker than the workspace-local
+  set (not verified byte-identical to whatever QWTF Live's own servers
+  actually run).
+
+Reversibility:
+  Easy — one file, clearly flagged, trivially removable if it turns out
+  to be the wrong map.
+
+---
+
 ## 2026-07-18  loc-generation  Decision: use author-placed `target_location` entities where present, before falling back to heuristics
 
 Context:
