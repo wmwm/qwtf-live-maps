@@ -3,630 +3,735 @@
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "2farms": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "2fort5r": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "2machr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "2night3_b1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "3way2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "42smooth": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "5speed5": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "8-1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "alchemy": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "anaconda": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "bastion": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "beyonddarkness": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "blitzkrieg2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "box4": {
     "bsp": true,
     "bsp_source": "external:https://maps.quakeworld.nu/all/box4.bsp",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "canal_b7": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "castlemania_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "castrum2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "caverns": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "cyanr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "cyclonr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "desperat": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "disorder": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "dragongod2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "drgnfyr2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "echo_b1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "egypt": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "egypt3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "elusive": {
     "bsp": false,
     "bsp_source": null,
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "etf-bigzag_b1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "etf_egypt": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "etf_miniheros": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "etf_xpress": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "excel3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ff-2fort": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "ff-aardvark": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "ff-destroy3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "ff-ibex": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ff-mortality": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "ff-phantomr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "ff-raiden": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ff-schtop": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "ff-shoop": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ff-siege": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "ff-swoop": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "fo-spiderx": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "fo_labs_b7": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "fo_smartbases_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "fracturex": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "fracturex2": {
     "bsp": false,
     "bsp_source": null,
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ftactic1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "genders2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "god_well": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "h4rdcoremini": {
     "bsp": false,
     "bsp_source": null,
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "h5rdcore_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "haste": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "impactr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "ins3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "japanc": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "japk": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "lostfortress": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "lotus_b4": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "marics_ctf1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "middleskool": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "minitf2k": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "mountdoom": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/qwtf-bots-playtest/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "nbases_b1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "nbases_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "neenf": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "nightshacksb5": {
     "bsp": false,
     "bsp_source": null,
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "nightwatch2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "noad2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "openfirer": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "optics6": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "picnics_b3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "pineapple_b3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "poop": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "preskool": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "qbase1_b3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "qu4d": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "quartz_b1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "r123": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "rmanor_b6": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "rs_zz1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "rs_zzr": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "sanctuary_b9": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "shank76": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "smap47": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "snowlake_b7": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "spring_b4": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "spyder": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "substation_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "sunnyramps": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "tf2day_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "tfc-demolish_b2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "turbo": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": false
   },
   "turtler": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": true,
+    "levelshot": true,
     "textures": true
   },
   "utumno_b3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "vengeance2": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   },
   "vertex1r": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "volcanic": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/fte-demo-harness/base/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "wc3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "well6mini": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-qwtf-client/content/configs/maps",
     "ent": false,
+    "levelshot": true,
     "textures": false
   },
   "wellgl1": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": false,
     "textures": false
   },
   "xpress3": {
     "bsp": true,
     "bsp_source": "/home/wm-dev/Development/wm-fortressone-source/FortressOne/fortress/maps",
     "ent": false,
+    "levelshot": true,
     "textures": true
   }
 }

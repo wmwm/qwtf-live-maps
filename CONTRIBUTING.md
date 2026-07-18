@@ -12,6 +12,7 @@ maps/<mapname>/
   locs/<mapname>.loc        (optional but strongly preferred)
   textures/<mapname>/       (optional, only if the map needs custom textures
                               beyond the base FortressOne mod install)
+  textures/levelshots/<mapname>.png  (optional, a menu-style preview image)
 ```
 
 sound/ and progs/ are **not** part of a per-map package here — FortressOne

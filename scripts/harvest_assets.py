@@ -40,6 +40,14 @@ BSP_SRCS = [
 ]
 ENT_SRC = DEV_ROOT / "qwtf-bots-playtest/fortress/maps"
 TEX_SRC = DEV_ROOT / "wm-qwtf-client/content/configs/textures"
+# wm-qwtf-client already runs a real, working levelshot capture pipeline
+# (tools/build/gen-levelshots.sh: disposable server + spectator client +
+# Xvfb framebuffer grab, camera positioned from the map's own spawn
+# entities) — 58 maps' worth of output already exists. Harvesting those is
+# a plain file copy; re-running that capture pipeline for the rest is a
+# real, larger undertaking (spins up disposable game servers) deliberately
+# NOT attempted in this pass — see README's levelshots section.
+LEVELSHOT_SRC = DEV_ROOT / "wm-qwtf-client/content/levelshots-nonfree/levelshots"
 OUT = Path("maps")
 
 EXTERNAL_BSP_SOURCES = {
@@ -71,7 +79,7 @@ def all_in_scope_maps():
 def harvest():
     report = {}
     for name in all_in_scope_maps():
-        entry = {"bsp": False, "bsp_source": None, "ent": False, "textures": False}
+        entry = {"bsp": False, "bsp_source": None, "ent": False, "textures": False, "levelshot": False}
         map_dir = OUT / name
         for src_dir in BSP_SRCS:
             bsp_path = src_dir / f"{name}.bsp"
@@ -108,6 +116,12 @@ def harvest():
             shutil.copytree(tex_dir, dest)
             entry["textures"] = True
 
+        shot_path = LEVELSHOT_SRC / f"{name}.png"
+        if shot_path.exists():
+            (map_dir / "textures" / "levelshots").mkdir(parents=True, exist_ok=True)
+            shutil.copy2(shot_path, map_dir / "textures" / "levelshots" / f"{name}.png")
+            entry["levelshot"] = True
+
         report[name] = entry
 
     json.dump(report, open("data/harvest-report.json", "w"), indent=2, sort_keys=True)
@@ -117,6 +131,7 @@ def harvest():
     print(f"  bsp found:      {sum(e['bsp'] for e in report.values())}/{len(report)}")
     print(f"  ent found:      {sum(e['ent'] for e in report.values())}/{len(report)}")
     print(f"  textures found: {sum(e['textures'] for e in report.values())}/{len(report)}")
+    print(f"  levelshots found: {sum(e['levelshot'] for e in report.values())}/{len(report)}")
     if missing_bsp:
         print(f"  MISSING bsp (no local asset found): {missing_bsp}")
 

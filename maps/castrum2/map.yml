@@ -6,5 +6,6 @@ license_note: community map, attribution-only (scene convention)
 has_bsp: true
 has_ent: false
 has_textures: false
+has_levelshot: true
 loc_status: author-in-map
 asset_provenance: workspace-local

@@ -85,6 +85,7 @@ def main():
             "has_bsp": h.get("bsp", False),
             "has_ent": h.get("ent", False),
             "has_textures": h.get("textures", False),
+            "has_levelshot": h.get("levelshot", False),
             "loc_status": loc_status,
             "asset_provenance": asset_provenance,
         }
@@ -115,7 +116,19 @@ def build_readme(per_map_meta, map_brackets):
     lines.append("- **loc status**: `author-in-map` (extracted from the map's own built-in "
                  "location entities — highest confidence), `community` (hand-authored, "
                  "imported from the wider QW scene), `heuristic-unreviewed` (auto-generated "
-                 "from spawn/flag/item positions, needs a playtester's eyes), `missing`.")
+                 "from spawn/flag/item positions plus author-placed ambient sound markers, "
+                 "needs a playtester's eyes), `missing`.")
+    lines.append("- **assets**: `+shot` means a levelshot exists at "
+                 "`textures/levelshots/<name>.png`.")
+    lines.append("")
+
+    shot_count = sum(1 for m in per_map_meta.values() if m["has_levelshot"])
+    lines.append(f"**Levelshots**: {shot_count}/{len(per_map_meta)} maps have one, harvested "
+                 "from `wm-qwtf-client`'s existing capture pipeline "
+                 "(`tools/build/gen-levelshots.sh` — a disposable server + spectator client "
+                 "+ Xvfb framebuffer grab, camera positioned from the map's own spawn "
+                 "entities). Re-running that pipeline to fill the rest is a real, larger "
+                 "undertaking (spins up disposable game servers) not attempted in this pass.")
     lines.append("")
 
     for bracket in BRACKETS:
@@ -128,7 +141,8 @@ def build_readme(per_map_meta, map_brackets):
         lines.append("|---|---|---|---|")
         for n in sorted(names, key=lambda x: -(per_map_meta[x]["play_count"] or -1)):
             meta = per_map_meta[n]
-            assets = "bsp" + ("+ent" if meta["has_ent"] else "") + ("+tex" if meta["has_textures"] else "")
+            assets = ("bsp" + ("+ent" if meta["has_ent"] else "") + ("+tex" if meta["has_textures"] else "")
+                     + ("+shot" if meta["has_levelshot"] else ""))
             if not meta["has_bsp"]:
                 assets = "**missing**"
             pc = meta["play_count"] if meta["play_count"] is not None else "?"
