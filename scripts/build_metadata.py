@@ -110,9 +110,6 @@ def build_readme(per_map_meta, map_brackets):
     lines.append("people actually playing, cross-checked against "
                  "[logs.qwtf.live](https://logs.qwtf.live/).")
     lines.append("")
-    lines.append("See `docs/superpowers/specs/2026-07-18-qwtf-live-maps-design.md` for the "
-                 "full phase 1 design and scope decisions.")
-    lines.append("")
     lines.append("## Map status legend")
     lines.append("")
     lines.append("- **loc status**: `author-in-map` (extracted from the map's own built-in "
