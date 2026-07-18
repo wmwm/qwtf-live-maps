@@ -115,6 +115,8 @@ def build_readme(per_map_meta, map_brackets):
     lines.append("people actually playing, cross-checked against "
                  "[logs.qwtf.live](https://logs.qwtf.live/).")
     lines.append("")
+    lines.append("See [CHANGELOG.md](CHANGELOG.md) for what's changed.")
+    lines.append("")
     lines.append("## Most played, by real match count")
     lines.append("")
     lines.append("Not a vibe, actual logs.qwtf.live match history at the time this was last "

@@ -5,6 +5,8 @@ Not an archive of every map ever made for QuakeWorld Team Fortress —
 scoped to the current competitive rotation and what real matches show
 people actually playing, cross-checked against [logs.qwtf.live](https://logs.qwtf.live/).
 
+See [CHANGELOG.md](CHANGELOG.md) for what's changed.
+
 ## Most played, by real match count
 
 Not a vibe, actual logs.qwtf.live match history at the time this was last generated:
