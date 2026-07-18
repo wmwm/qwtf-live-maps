@@ -23,6 +23,7 @@
     "box4": 0,
     "canal_b7": 13,
     "castlemania_b2": 12,
+    "castrum2": 1,
     "caverns": 5,
     "cyanr": 6,
     "cyclonr": 9,
@@ -53,6 +54,7 @@
     "fo-spiderx": 8,
     "fo_labs_b7": 6,
     "fo_smartbases_b2": 11,
+    "fracturex": 1,
     "fracturex2": 0,
     "ftactic1": 17,
     "genders2": 63,
@@ -106,7 +108,9 @@
     "vertex1r": 6,
     "volcanic": 3,
     "wc3": 9,
-    "well6mini": 9
+    "well6mini": 9,
+    "wellgl1": 2,
+    "xpress3": 5
   },
   "unlisted_but_played_recently": [
     "castrum2",

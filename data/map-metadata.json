@@ -1,0 +1,1382 @@
+{
+  "1on1forts": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "community",
+    "play_count": 10,
+    "source": "rotation+logs"
+  },
+  "2farms": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 23,
+    "source": "rotation+logs"
+  },
+  "2fort5r": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "community",
+    "play_count": 13,
+    "source": "rotation+logs"
+  },
+  "2machr": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "2night3_b1": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 3,
+    "source": "rotation+logs"
+  },
+  "3way2": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 26,
+    "source": "rotation+logs"
+  },
+  "42smooth": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "5speed5": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 34,
+    "source": "rotation+logs"
+  },
+  "8-1": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "alchemy": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 7,
+    "source": "rotation+logs"
+  },
+  "anaconda": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "bastion": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "beyonddarkness": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "blitzkrieg2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3",
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 171,
+    "source": "rotation+logs"
+  },
+  "box4": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": false,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "missing",
+    "play_count": 0,
+    "source": "rotation-list"
+  },
+  "canal_b7": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 13,
+    "source": "rotation+logs"
+  },
+  "castlemania_b2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 12,
+    "source": "rotation+logs"
+  },
+  "castrum2": {
+    "author": "unknown",
+    "brackets": [],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "logs-only"
+  },
+  "caverns": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 5,
+    "source": "rotation+logs"
+  },
+  "cyanr": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "cyclonr": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "desperat": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 26,
+    "source": "rotation+logs"
+  },
+  "disorder": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 8,
+    "source": "rotation+logs"
+  },
+  "dragongod2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 33,
+    "source": "rotation+logs"
+  },
+  "drgnfyr2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 8,
+    "source": "rotation+logs"
+  },
+  "echo_b1": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 3,
+    "source": "rotation+logs"
+  },
+  "egypt": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "egypt3": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 125,
+    "source": "rotation+logs"
+  },
+  "elusive": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": false,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "missing",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "etf-bigzag_b1": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 7,
+    "source": "rotation+logs"
+  },
+  "etf_egypt": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 14,
+    "source": "rotation+logs"
+  },
+  "etf_miniheros": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 17,
+    "source": "rotation+logs"
+  },
+  "etf_xpress": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 12,
+    "source": "rotation+logs"
+  },
+  "excel3": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 11,
+    "source": "rotation+logs"
+  },
+  "ff-2fort": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 13,
+    "source": "rotation+logs"
+  },
+  "ff-aardvark": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 15,
+    "source": "rotation+logs"
+  },
+  "ff-destroy3": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 343,
+    "source": "rotation+logs"
+  },
+  "ff-ibex": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "ff-mortality": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 26,
+    "source": "rotation+logs"
+  },
+  "ff-phantomr": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 398,
+    "source": "rotation+logs"
+  },
+  "ff-raiden": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "ff-schtop": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 355,
+    "source": "rotation+logs"
+  },
+  "ff-shoop": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 34,
+    "source": "rotation+logs"
+  },
+  "ff-siege": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 60,
+    "source": "rotation+logs"
+  },
+  "ff-swoop": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 217,
+    "source": "rotation+logs"
+  },
+  "fo-spiderx": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 8,
+    "source": "rotation+logs"
+  },
+  "fo_labs_b7": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "fo_smartbases_b2": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 11,
+    "source": "rotation+logs"
+  },
+  "fracturex": {
+    "author": "unknown",
+    "brackets": [],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "logs-only"
+  },
+  "fracturex2": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": false,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "missing",
+    "play_count": 0,
+    "source": "rotation-list"
+  },
+  "ftactic1": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 17,
+    "source": "rotation+logs"
+  },
+  "genders2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 63,
+    "source": "rotation+logs"
+  },
+  "god_well": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 13,
+    "source": "rotation+logs"
+  },
+  "h4rdcoremini": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": false,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "missing",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "h5rdcore_b2": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 180,
+    "source": "rotation+logs"
+  },
+  "haste": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 7,
+    "source": "rotation+logs"
+  },
+  "impactr": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "ins3": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 8,
+    "source": "rotation+logs"
+  },
+  "japanc": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 340,
+    "source": "rotation+logs"
+  },
+  "japk": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 26,
+    "source": "rotation+logs"
+  },
+  "lostfortress": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 10,
+    "source": "rotation+logs"
+  },
+  "lotus_b4": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 8,
+    "source": "rotation+logs"
+  },
+  "marics_ctf1": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "middleskool": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 22,
+    "source": "rotation+logs"
+  },
+  "minitf2k": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "mountdoom": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 22,
+    "source": "rotation+logs"
+  },
+  "nbases_b1": {
+    "author": "unknown",
+    "brackets": [
+      "2v2",
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 47,
+    "source": "rotation+logs"
+  },
+  "nbases_b2": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 7,
+    "source": "rotation+logs"
+  },
+  "neenf": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "nightshacksb5": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": false,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "missing",
+    "play_count": 0,
+    "source": "rotation-list"
+  },
+  "nightwatch2": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "noad2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "openfirer": {
+    "author": "unknown",
+    "brackets": [
+      "4v4",
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 317,
+    "source": "rotation+logs"
+  },
+  "optics6": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 17,
+    "source": "rotation+logs"
+  },
+  "picnics_b3": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 0,
+    "source": "rotation-list"
+  },
+  "pineapple_b3": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 100,
+    "source": "rotation+logs"
+  },
+  "poop": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 52,
+    "source": "rotation+logs"
+  },
+  "preskool": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 25,
+    "source": "rotation+logs"
+  },
+  "qbase1_b3": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "qu4d": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 20,
+    "source": "rotation+logs"
+  },
+  "quartz_b1": {
+    "author": "unknown",
+    "brackets": [
+      "5v5"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "r123": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 5,
+    "source": "rotation+logs"
+  },
+  "rmanor_b6": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "rs_zz1": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 27,
+    "source": "rotation+logs"
+  },
+  "rs_zzr": {
+    "author": "unknown",
+    "brackets": [
+      "3v3",
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 320,
+    "source": "rotation+logs"
+  },
+  "sanctuary_b9": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "shank76": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "smap47": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "snowlake_b7": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 3,
+    "source": "rotation+logs"
+  },
+  "spring_b4": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "spyder": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 3,
+    "source": "rotation+logs"
+  },
+  "substation_b2": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 7,
+    "source": "rotation+logs"
+  },
+  "sunnyramps": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 4,
+    "source": "rotation+logs"
+  },
+  "tf2day_b2": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 21,
+    "source": "rotation+logs"
+  },
+  "tfc-demolish_b2": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 59,
+    "source": "rotation+logs"
+  },
+  "turbo": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 26,
+    "source": "rotation+logs"
+  },
+  "turtler": {
+    "author": "unknown",
+    "brackets": [
+      "4v4"
+    ],
+    "has_bsp": true,
+    "has_ent": true,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 87,
+    "source": "rotation+logs"
+  },
+  "utumno_b3": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "rotation+logs"
+  },
+  "vengeance2": {
+    "author": "unknown",
+    "brackets": [
+      "3v3"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 1,
+    "source": "rotation+logs"
+  },
+  "vertex1r": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 6,
+    "source": "rotation+logs"
+  },
+  "volcanic": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 3,
+    "source": "rotation+logs"
+  },
+  "wc3": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "well6mini": {
+    "author": "unknown",
+    "brackets": [
+      "2v2"
+    ],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "author-in-map",
+    "play_count": 9,
+    "source": "rotation+logs"
+  },
+  "wellgl1": {
+    "author": "unknown",
+    "brackets": [],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": false,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 2,
+    "source": "logs-only"
+  },
+  "xpress3": {
+    "author": "unknown",
+    "brackets": [],
+    "has_bsp": true,
+    "has_ent": false,
+    "has_textures": true,
+    "license_note": "community map, attribution-only (scene convention)",
+    "loc_status": "heuristic-unreviewed",
+    "play_count": 5,
+    "source": "logs-only"
+  }
+}

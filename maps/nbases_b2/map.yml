@@ -1,0 +1,10 @@
+brackets:
+  - 4v4
+source: rotation+logs
+play_count: 7
+author: unknown
+license_note: community map, attribution-only (scene convention)
+has_bsp: true
+has_ent: false
+has_textures: false
+loc_status: heuristic-unreviewed
