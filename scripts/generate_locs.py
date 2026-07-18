@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
 """Heuristic .loc generator: parse each bsp's ENTITIES lump (classic
 TeamFortress/QWTF QuakeC entity schema: info_player_teamspawn, item_tfgoal,
-info_tfgoal, teleporters) and emit .loc entries in the same style as the
-two existing community files we imported (2fort5r, 1on1forts): plain
-"X Y Z name" lines, CRLF endings, short lowercase phrases.
+info_tfgoal, teleporters) and emit .loc entries in the same style as
+established community conventions: plain "X Y Z name" lines, CRLF
+endings, short lowercase phrases.
 
 This is a heuristic first pass, not hand-authored — every map it touches
 gets loc_status: heuristic-unreviewed in map.yml (set by build_metadata.py).
-Maps with an already-imported community .loc (2fort5r, 1on1forts) are
-skipped entirely; never overwrite a real one.
+
+An already-existing .loc file is only left alone if its coordinates
+actually fall within THIS bsp's own bounding box (see verify_bbox_match) —
+found via scripts/verify_locs.py that the two "verbatim community import"
+files (2fort5r, 1on1forts, both pulled from FortressOne/map-repo on the
+assumption that same filename == same map) were coordinate spaces for an
+entirely different, much larger compile of a map that happens to share
+the name: 1on1forts.bsp's own bbox is (-1407,-511,-255)-(1407,511,351)
+but its imported .loc ranged out to (-10879,-3711,-1599)-(10879,3711,1728)
+— not a unit-scale difference (ratios aren't consistent axis to axis),
+a genuinely different map. Never trust "same filename" as "same map"
+again without this check.
 """
 import json
 import re
@@ -16,8 +26,43 @@ import struct
 from pathlib import Path
 
 MAPS_DIR = Path("maps")
-SKIP = {"2fort5r", "1on1forts"}  # already have real community .loc files
 CLUSTER_THRESHOLD = 650.0
+BBOX_MARGIN = 300.0  # generous slop for a legitimately-placed edge point
+
+
+def model0_bbox(bsp_path):
+    data = bsp_path.read_bytes()
+    lumps = struct.unpack("<30i", data[4:124])
+    m_ofs, _ = lumps[14 * 2], lumps[14 * 2 + 1]
+    vals = struct.unpack_from("<9f4i3i", data, m_ofs)
+    return vals[0:3], vals[3:6]  # mins, maxs
+
+
+def verify_bbox_match(loc_path, mins, maxs, min_fraction=0.9):
+    """True if at least `min_fraction` of an existing .loc file's points
+    fall within the bsp's own bounding box (+ margin). A wholesale
+    mismatch (wrong map entirely) fails this hard; a handful of
+    legitimately just-outside-the-brush points does not."""
+    text = loc_path.read_bytes().decode("latin-1")
+    total = 0
+    inside = 0
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split(None, 3)
+        if len(parts) < 4:
+            continue
+        try:
+            x, y, z = (float(p) for p in parts[:3])
+        except ValueError:
+            continue
+        total += 1
+        if (mins[0] - BBOX_MARGIN <= x <= maxs[0] + BBOX_MARGIN and
+                mins[1] - BBOX_MARGIN <= y <= maxs[1] + BBOX_MARGIN and
+                mins[2] - BBOX_MARGIN <= z <= maxs[2] + BBOX_MARGIN):
+            inside += 1
+    return total > 0 and (inside / total) >= min_fraction
 
 
 def parse_entities(bsp_path):
@@ -281,16 +326,27 @@ def write_loc_file(path, lines):
 
 
 def main():
-    sources = {}  # mapname -> "author-in-map" | "heuristic"
-    no_bsp, unparseable, zero = [], [], []
+    sources = {}  # mapname -> "author-in-map" | "heuristic" | "community-verified"
+    no_bsp, unparseable, zero, rejected_mismatch = [], [], [], []
     for map_dir in sorted(MAPS_DIR.iterdir()):
         name = map_dir.name
-        if name in SKIP:
-            continue
         bsp_path = map_dir / "maps" / f"{name}.bsp"
         if not bsp_path.exists():
             no_bsp.append(name)
             continue
+
+        existing_loc = map_dir / "locs" / f"{name}.loc"
+        if existing_loc.exists():
+            mins, maxs = model0_bbox(bsp_path)
+            if verify_bbox_match(existing_loc, mins, maxs):
+                sources[name] = {"source": "community-verified",
+                                  "count": len(existing_loc.read_text().splitlines())}
+                continue
+            rejected_mismatch.append(name)
+            # falls through to regenerate — an existing file whose
+            # coordinates don't match this bsp's own geometry is actively
+            # wrong, not "keep as-is because it's already there"
+
         ents = parse_entities(bsp_path)
         if ents is None:
             unparseable.append(name)
@@ -313,17 +369,21 @@ def main():
 
     author_count = sum(1 for v in sources.values() if v["source"] == "author-in-map")
     heuristic_count = sum(1 for v in sources.values() if v["source"] == "heuristic")
-    print(f"Generated .loc for {len(sources)} maps "
-          f"({author_count} from author-placed target_location entities, "
+    community_count = sum(1 for v in sources.values() if v["source"] == "community-verified")
+    print(f"Generated/kept .loc for {len(sources)} maps "
+          f"({community_count} community-verified, "
+          f"{author_count} from author-placed target_location entities, "
           f"{heuristic_count} heuristic)")
-    print(f"Skipped (already have community .loc): {sorted(SKIP)}")
+    if rejected_mismatch:
+        print(f"REJECTED existing .loc — coordinates don't match this bsp's own bounding box "
+              f"(regenerated instead): {rejected_mismatch}")
     print(f"No bsp (can't generate): {no_bsp}")
     if unparseable:
         print(f"Unparseable bsp version: {unparseable}")
     if zero:
         print(f"No loc entries found at all (no matching entities): {zero}")
 
-    json.dump({"sources": sources, "skipped_has_community_loc": sorted(SKIP),
+    json.dump({"sources": sources, "rejected_bbox_mismatch": rejected_mismatch,
                "no_bsp": no_bsp, "unparseable": unparseable, "zero_entries": zero},
               open("data/loc-generation-report.json", "w"), indent=2)
 

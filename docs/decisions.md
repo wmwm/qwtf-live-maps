@@ -1,5 +1,68 @@
 # Decisions
 
+## 2026-07-18  loc-verification  Decision: verify every .loc against real BSP collision geometry (hull 1), not just file format
+
+Context:
+  Tim asked directly to sample all `.loc` files for accuracy. `validate.py`
+  only checks that files parse, not that coordinates are real. Built
+  `scripts/verify_locs.py`. First version walked hull 0 (the thin
+  point/render hull via NODES+LEAFS) and found ~24% of ALL points
+  "solid," including known-good entity origins — the tell it was
+  measuring the wrong thing. Switched to hull 1 (the player-sized box
+  clip hull via CLIPNODES — what actually determines whether a player
+  fits), the correct methodology. That surfaced two real bugs and one
+  methodology refinement:
+  1. blitzkrieg2's "red spawn" landed exactly in solid floor. Root cause:
+     the spawn-clustering step averaged 10 spawn entities across TWO
+     floor tiers 488 units apart in Z (5 at z=228, 5 at z=716) into one
+     centroid at z=472 — a synthetic point matching no real location.
+  2. The two "community" `.loc` files imported verbatim in phase 1
+     (2fort5r, 1on1forts, assumed identical-by-filename to
+     FortressOne/map-repo's maps of the same name) were coordinate spaces
+     for an entirely different, much larger map — 1on1forts.bsp's own
+     bbox is (-1407,-511,-255)-(1407,511,351) but its imported `.loc`
+     ranged to (-10879,-3711,-1599)-(10879,3711,1728), not a consistent
+     unit-scale difference. Both were 100% "solid" — actively wrong data.
+  3. Many flag/cap-point coordinates tested solid at their exact Z but
+     open 8-16 units above — confirmed by hand against ff-swoop (217 real
+     matches, actively played) that this is normal Quake convention
+     (items sit at pedestal-top height), not broken data.
+
+Options:
+  A. Treat any exact-Z solid hit as a bug and flag it — would misreport
+     ~750 normal pedestal-placed items as broken.
+  B. Sweep Z+0/4/8/16/24/32/48 above each point, only flag "STUCK" if
+     solid at every offset — matches the real ff-swoop ground truth.
+  C. Skip verification of flag/cap-point categories entirely — would
+     have missed real bugs that happen to be flags/cap-points too.
+
+Chosen: B, plus two permanent fixes in `generate_locs.py`: `medoid()`
+(the real cluster member closest to the centroid, used everywhere a
+cluster becomes a loc coordinate — spawns, resupply, ambient landmarks,
+author-placed `target_location` clusters — so an emitted point is always
+an actual entity origin, never a computed average) and
+`verify_bbox_match()` (an existing `.loc` is only trusted as "community"
+if ≥90% of its points fall within the shipped bsp's own bounding box +
+300-unit margin; otherwise it's automatically regenerated instead of
+silently kept). 2fort5r/1on1forts now correctly show
+`loc_status: heuristic-unreviewed`, not the previously wrong "community".
+
+Reason:
+  The sweep dropped the false-positive rate from ~44% of all points to
+  3.7% (69/1887 across 16 maps) — a genuinely trustworthy signal instead
+  of noise. Those 16 maps are flagged in the README for a closer look,
+  explicitly not claimed as confirmed bugs (several have plausible
+  non-bug explanations: ambient sound markers, wall-mounted cap points,
+  teleporter destinations needing side clearance the up-only sweep
+  doesn't check).
+
+Reversibility:
+  Easy — `verify_locs.py`, `medoid()`, and `verify_bbox_match()` are all
+  independently re-runnable; the `.loc` files are regenerated outputs,
+  not hand-authored content that could be lost by rerunning the pipeline.
+
+---
+
 ## 2026-07-18  levelshots  Decision: harvest wm-qwtf-client's existing captures, don't run the capture pipeline ourselves
 
 Context:

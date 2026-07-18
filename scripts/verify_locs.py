@@ -144,11 +144,34 @@ def parse_loc_lines(path):
     return lines
 
 
+VERTICAL_SWEEP = (0, 4, 8, 16, 24, 32, 48)
+
+
+def classify(tree, point):
+    """A point solid at its exact Z but empty a little further up is a
+    normal Quake convention, not a bug: flags/cap-points/items are
+    routinely placed with their origin at the TOP of a pedestal/stand
+    brush (confirmed by hand against ff-swoop's real, actively-played
+    flag: solid from -16 to +8 relative units, empty from +16 up — the
+    same real coordinate the live map uses, not a broken one). Only
+    "still solid at every offset up to +48" earns the STUCK verdict —
+    that's not explainable by a pedestal, something is actually wrong.
+    """
+    x, y, z = point
+    results = [tree.contents_at((x, y, z + dz)) for dz in VERTICAL_SWEEP]
+    if all(c == -2 for c in results):
+        return "STUCK"
+    if results[0] == -2:
+        return "on-pedestal"
+    return "open"
+
+
 def main():
     report = {}
     total_points = 0
-    total_solid = 0
-    maps_with_solid = []
+    total_stuck = 0
+    total_pedestal = 0
+    maps_with_stuck = []
 
     for map_dir in sorted(MAPS_DIR.iterdir()):
         if not map_dir.is_dir():
@@ -166,32 +189,39 @@ def main():
             continue
 
         loc_lines = parse_loc_lines(loc_path)
-        solid_hits = []
+        stuck_hits = []
+        pedestal_hits = []
         for point, label in loc_lines:
-            c = tree.contents_at(point)
+            verdict = classify(tree, point)
             total_points += 1
-            if c == -2:
-                solid_hits.append({"point": point, "label": label})
-                total_solid += 1
+            if verdict == "STUCK":
+                stuck_hits.append({"point": point, "label": label})
+                total_stuck += 1
+            elif verdict == "on-pedestal":
+                pedestal_hits.append({"point": point, "label": label})
+                total_pedestal += 1
 
         report[name] = {
             "total_locs": len(loc_lines),
-            "solid_count": len(solid_hits),
-            "solid_hits": solid_hits,
+            "stuck_count": len(stuck_hits),
+            "pedestal_count": len(pedestal_hits),
+            "stuck_hits": stuck_hits,
         }
-        if solid_hits:
-            maps_with_solid.append(name)
+        if stuck_hits:
+            maps_with_stuck.append(name)
 
     json.dump(report, open("data/loc-verification-report.json", "w"), indent=2)
 
     print(f"Sampled {total_points} loc points across {len(report)} maps.")
-    print(f"{total_solid} land in SOLID space ({len(maps_with_solid)} maps affected).")
-    if maps_with_solid:
-        print("\nMaps with at least one SOLID loc point:")
-        for name in maps_with_solid:
+    print(f"{total_pedestal} sit on a pedestal/stand (solid at exact Z, opens up within 48u — normal, not a bug).")
+    print(f"{total_stuck} are genuinely STUCK (solid at every offset up to +48u) "
+          f"across {len(maps_with_stuck)} maps — real accuracy problems.")
+    if maps_with_stuck:
+        print("\nMaps with at least one genuinely STUCK loc point:")
+        for name in maps_with_stuck:
             r = report[name]
-            print(f"  {name}: {r['solid_count']}/{r['total_locs']}")
-            for hit in r["solid_hits"][:5]:
+            print(f"  {name}: {r['stuck_count']}/{r['total_locs']}")
+            for hit in r["stuck_hits"][:5]:
                 x, y, z = hit["point"]
                 print(f"    ({x:.0f}, {y:.0f}, {z:.0f}) \"{hit['label']}\"")
 

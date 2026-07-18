@@ -27,7 +27,13 @@ archive convention, which predates the unified mod distribution).
 4. Run `python3 scripts/validate.py` before opening a PR — it checks every
    `.bsp` parses, every `.loc` is well-formed, and every `map.yml` has the
    required fields.
-5. Submit a pull request.
+5. Also run `python3 scripts/verify_locs.py` if you touched any `.loc`
+   file — it walks the map's own hull-1 (player-collision) geometry to
+   confirm each coordinate is somewhere a player can actually stand, not
+   just that the line parses. A point stuck in solid at every offset up
+   to 48 units above it is a real bug; solid at the exact coordinate but
+   open a little higher up is normal (pedestals, stands).
+6. Submit a pull request.
 
 ## `.loc` file format
 

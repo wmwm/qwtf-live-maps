@@ -62,14 +62,18 @@ def main():
         in_rotation = name in rotation_maps
         play_count = crossref["match_counts"].get(name)
         h = harvest.get(name, {})
+        # loc_status comes from what generate_locs.py actually did, not a
+        # hardcoded name check — "community" import claims are only trusted
+        # after verify_bbox_match confirms the coordinates fit THIS bsp
+        # (see scripts/generate_locs.py's docstring: 2fort5r/1on1forts were
+        # both wrongly assumed identical-by-filename to a much larger map).
         loc_info = loc_report.get("sources", {}).get(name)
-        if name in ("2fort5r", "1on1forts"):
-            loc_status = "community"
-        elif loc_info:
-            loc_status = ("author-in-map" if loc_info["source"] == "author-in-map"
-                          else "heuristic-unreviewed")
-        else:
-            loc_status = "missing"
+        loc_status_map = {
+            "community-verified": "community",
+            "author-in-map": "author-in-map",
+            "heuristic": "heuristic-unreviewed",
+        }
+        loc_status = loc_status_map.get(loc_info["source"] if loc_info else None, "missing")
 
         bsp_source = h.get("bsp_source") or ""
         asset_provenance = "external-archive" if bsp_source.startswith("external:") else (
@@ -144,6 +148,26 @@ def build_readme(per_map_meta, map_brackets):
                  "entities). Re-running that pipeline to fill the rest is a real, larger "
                  "undertaking (spins up disposable game servers) not attempted in this pass.")
     lines.append("")
+
+    try:
+        verify_report = json.load(open("data/loc-verification-report.json"))
+        total_pts = sum(m.get("total_locs", 0) for m in verify_report.values() if "total_locs" in m)
+        total_stuck = sum(m.get("stuck_count", 0) for m in verify_report.values() if "stuck_count" in m)
+        stuck_maps = sorted(n for n, m in verify_report.items() if m.get("stuck_count", 0) > 0)
+        lines.append(f"**Loc accuracy**: every `.loc` coordinate is checked against the map's "
+                     f"own hull-1 (player-collision) geometry via `scripts/verify_locs.py` — "
+                     f"not just \"does the file parse,\" but \"can a player actually stand "
+                     f"there.\" {total_stuck}/{total_pts} points across {len(stuck_maps)} maps "
+                     f"are genuinely stuck in solid geometry at every offset up to 48 units "
+                     f"(most \"solid at the exact coordinate\" hits are normal — flags/cap "
+                     f"points routinely sit at pedestal-top height, confirmed against a real, "
+                     f"actively-played map). Flagged for a closer look, not claimed fixed: "
+                     f"`{'`, `'.join(stuck_maps)}`." if stuck_maps else
+                     f"**Loc accuracy**: every `.loc` coordinate checked against the map's own "
+                     f"hull-1 geometry via `scripts/verify_locs.py` — no genuinely stuck points found.")
+        lines.append("")
+    except FileNotFoundError:
+        pass
 
     for bracket in BRACKETS:
         names = sorted(n for n, meta in per_map_meta.items() if bracket in meta["brackets"])

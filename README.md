@@ -27,6 +27,8 @@ Not a vibe, actual logs.qwtf.live match history at the time this was last genera
 
 **Levelshots**: 55/105 maps have one, harvested from `wm-qwtf-client`'s existing capture pipeline (`tools/build/gen-levelshots.sh` — a disposable server + spectator client + Xvfb framebuffer grab, camera positioned from the map's own spawn entities). Re-running that pipeline to fill the rest is a real, larger undertaking (spins up disposable game servers) not attempted in this pass.
 
+**Loc accuracy**: every `.loc` coordinate is checked against the map's own hull-1 (player-collision) geometry via `scripts/verify_locs.py` — not just "does the file parse," but "can a player actually stand there." 69/1887 points across 16 maps are genuinely stuck in solid geometry at every offset up to 48 units (most "solid at the exact coordinate" hits are normal — flags/cap points routinely sit at pedestal-top height, confirmed against a real, actively-played map). Flagged for a closer look, not claimed fixed: `2farms`, `dragongod2`, `etf_miniheros`, `excel3`, `fo-spiderx`, `japanc`, `lotus_b4`, `nightwatch2`, `quartz_b1`, `r123`, `sanctuary_b9`, `smap47`, `snowlake_b7`, `spring_b4`, `substation_b2`, `volcanic`.
+
 ## 2v2
 
 | Map | Matches (logs.qwtf.live) | Assets | Loc status |
@@ -48,10 +50,10 @@ Not a vibe, actual logs.qwtf.live match history at the time this was last genera
 | `ftactic1` | 17 | bsp+ent+shot | heuristic-unreviewed |
 | `optics6` | 17 | bsp+shot | heuristic-unreviewed |
 | `etf_egypt` | 14 | bsp+tex+shot | heuristic-unreviewed |
-| `2fort5r` | 13 | bsp+shot | community |
+| `2fort5r` | 13 | bsp+shot | heuristic-unreviewed |
 | `castlemania_b2` | 12 | bsp | heuristic-unreviewed |
 | `etf_xpress` | 12 | bsp+tex+shot | heuristic-unreviewed |
-| `1on1forts` | 10 | bsp | community |
+| `1on1forts` | 10 | bsp | heuristic-unreviewed |
 | `lostfortress` | 10 | bsp+shot | heuristic-unreviewed |
 | `cyclonr` | 9 | bsp+tex+shot | author-in-map |
 | `egypt` | 9 | bsp | heuristic-unreviewed |

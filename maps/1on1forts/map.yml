@@ -8,5 +8,5 @@ has_bsp: true
 has_ent: false
 has_textures: false
 has_levelshot: false
-loc_status: community
+loc_status: heuristic-unreviewed
 asset_provenance: workspace-local

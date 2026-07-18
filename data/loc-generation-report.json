@@ -1,8 +1,16 @@
 {
   "sources": {
+    "1on1forts": {
+      "source": "heuristic",
+      "count": 4
+    },
     "2farms": {
       "source": "heuristic",
       "count": 6
+    },
+    "2fort5r": {
+      "source": "heuristic",
+      "count": 18
     },
     "2machr": {
       "source": "heuristic",
@@ -397,10 +405,7 @@
       "count": 4
     }
   },
-  "skipped_has_community_loc": [
-    "1on1forts",
-    "2fort5r"
-  ],
+  "rejected_bbox_mismatch": [],
   "no_bsp": [
     "elusive",
     "fracturex2",

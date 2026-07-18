@@ -10,7 +10,7 @@
     "has_levelshot": false,
     "has_textures": false,
     "license_note": "community map, attribution-only (scene convention)",
-    "loc_status": "community",
+    "loc_status": "heuristic-unreviewed",
     "play_count": 10,
     "source": "rotation+logs"
   },
@@ -40,7 +40,7 @@
     "has_levelshot": true,
     "has_textures": false,
     "license_note": "community map, attribution-only (scene convention)",
-    "loc_status": "community",
+    "loc_status": "heuristic-unreviewed",
     "play_count": 13,
     "source": "rotation+logs"
   },
