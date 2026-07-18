@@ -1,31 +1,31 @@
 -152 776 -248 outside
 168 -744 -216 outside
--1072 1960 44 red lobby
+-1208 2008 16 red lobby
 -1400 1544 128 red stairs
--2120 1917 172 red upper button room
+-2392 1896 200 red upper button room
 -1304 2216 144 red capture point
--1592 2024 -32 red bottom resup
--2168 1936 16 red lower button room
--1720 3501 184 red lasers
--1117 3152 256 red flag room
--1152 2828 120 red flag room floor
--936 2360 88 red flag room ramp
+-1688 2024 -32 red bottom resup
+-2040 1976 16 red lower button room
+-1880 3656 184 red lasers
+-1400 3256 318 red flag room
+-1000 2856 120 red flag room floor
+-935 2360 88 red flag room ramp
 -696 1352 -24 red front door
 -2632 1912 16 red button room
--552 2184 88 red secret
+-552 2184 16 red secret
 584 -2184 160 red secret
--1035 1682 421 red roof
-1067 -1682 421 red roof
+-904 1624 424 red roof
+936 -1624 424 red roof
 -2376 3640 232 red top spawn
-1104 -1960 44 blue lobby
+1240 -2008 16 blue lobby
 1432 -1544 128 blue stairs
-2152 -1917 172 blue upper button room
+2424 -1896 200 blue upper button room
 1336 -2216 144 blue capture point
-1624 -2024 -32 blue bottom resup
-2200 -1936 16 blue lower button room
-1752 -3501 184 blue lasers
-1149 -3152 256 blue flag room
-1184 -2828 120 blue flag room floor
+1720 -2024 -32 blue bottom resup
+2072 -1976 16 blue lower button room
+1912 -3656 184 blue lasers
+1432 -3256 318 blue flag room
+1032 -2856 120 blue flag room floor
 968 -2360 88 blue flag room ramp
 728 -1352 -24 blue front door
 2664 -1912 16 blue button room

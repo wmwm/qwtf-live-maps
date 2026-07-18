@@ -103,8 +103,22 @@ def cluster_points(points, threshold=CLUSTER_THRESHOLD):
 
 
 def centroid(points):
+    """Do not emit this directly as a loc coordinate — see medoid() below.
+    A mathematical average of a cluster can land in solid space even when
+    every real point in the cluster is fine, e.g. two spawn tiers 488
+    units apart in Z average to a Z that's inside the floor between them
+    (found via scripts/verify_locs.py against blitzkrieg2). Kept as a
+    building block for medoid's "closest to the average" computation."""
     n = len(points)
     return tuple(round(sum(p[i] for p in points) / n) for i in range(3))
+
+
+def medoid(points):
+    """The real point in the cluster closest to its centroid — always an
+    actual entity origin the map author placed, never a synthetic average
+    that might not correspond to any real, reachable location at all."""
+    c = centroid(points)
+    return min(points, key=lambda p: dist(p, c))
 
 
 COLOR_CODE_RE = re.compile(r"\^[0-9*]")
@@ -130,7 +144,7 @@ def extract_author_target_locations(ents):
     lines = []
     for name, pts in by_name.items():
         for cl in cluster_points(pts, threshold=CLUSTER_THRESHOLD):
-            lines.append((centroid(cl), name))
+            lines.append((medoid(cl), name))
     return lines
 
 
@@ -177,7 +191,7 @@ def extract_ambient_landmarks(ents):
     lines = []
     for label, pts in by_label.items():
         for cl in cluster_points(pts, threshold=CLUSTER_THRESHOLD):
-            lines.append((centroid(cl), label))
+            lines.append((medoid(cl), label))
     return lines
 
 
@@ -196,7 +210,7 @@ def generate_locs(name, ents):
         pts = [p for p in pts if p]
         for i, cl in enumerate(cluster_points(pts), 1):
             label = f"{color_for(team_no)} spawn" + (f" {i}" if i > 1 else "")
-            lines.append((centroid(cl), label))
+            lines.append((medoid(cl), label))
 
     # flags
     for e in ents:
@@ -221,14 +235,15 @@ def generate_locs(name, ents):
     for i, cl in enumerate(cluster_points(resupply_pts), 1):
         if len(cl) < 2:
             continue  # a single stray pickup isn't a "location"
-        c = centroid(cl)
+        c = centroid(cl)  # fine as a proximity estimate; never emitted directly
+        m = medoid(cl)     # the actual point written to the loc file
         nearest = min(spawn_centroids, key=lambda sl: dist(sl[0], c), default=None)
         if nearest and dist(nearest[0], c) < 1200:
             team_label = nearest[1].split(" spawn")[0]
             label = f"{team_label} resupply"
         else:
             label = f"resupply {i}"
-        lines.append((c, label))
+        lines.append((m, label))
 
     # teleporter destinations
     dests = [e for e in ents if e.get("classname") == "info_teleport_destination"]

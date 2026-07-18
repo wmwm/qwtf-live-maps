@@ -1,7 +1,7 @@
-2338 -1001 194 red spawn
-1210 -1988 155 red spawn 2
--2338 1006 194 blue spawn
--1213 1987 155 blue spawn 2
+2336 -824 188 red spawn
+1320 -1984 152 red spawn 2
+-2336 840 188 blue spawn
+-1320 1984 152 blue spawn 2
 1792 -3584 265 blue flag
 -1792 3584 265 red flag
 2040 1960 2896 teleporter

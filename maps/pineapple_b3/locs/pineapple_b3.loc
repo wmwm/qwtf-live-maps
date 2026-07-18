@@ -1,10 +1,10 @@
-1200 2192 88 red spawn
+1168 2192 88 red spawn
 2032 -1464 -72 red spawn 2
--1200 -2192 88 blue spawn
+-1168 -2192 88 blue spawn
 -2032 1464 -72 blue spawn 2
 2752 -793 -52 blue flag
 -2752 793 -52 red flag
-1150 1558 -13 red resupply
--1176 -1584 -13 blue resupply
-2066 -1194 -125 red resupply
--2091 1171 -125 blue resupply
+1024 1512 -16 red resupply
+-1056 -1544 -16 blue resupply
+2184 -1208 -128 red resupply
+-2216 1176 -128 blue resupply

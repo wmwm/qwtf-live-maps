@@ -1,40 +1,40 @@
--176 -4320 -256 Red Flag
--239 -3883 -232 Red Flagroom
--584 -4047 -152 Red Long Stairs
--416 -3608 -184 Red Flagroom, Pedestal
--888 -3560 -72 Red Long Path to FR
+-168 -4392 -264 Red Flag
+-184 -3896 -232 Red Flagroom
+-584 -4040 -152 Red Long Stairs
+-520 -3608 -168 Red Flagroom, Pedestal
+-888 -3384 -72 Red Long Path to FR
 -888 -2744 -72 Red Long Spawn
 -600 -2744 -8 Red Long Spawn Ramp
--328 -2592 24 Red Long Entrance
-239 -3225 -84 Red Spiral Staircase
-632 -3128 24 Red Spiral Spawn
-632 -2824 88 Red Spiral Top
-632 -2552 152 Red Spiral, Top Entrance
-632 -2200 152 Red Ramps, High
-400 -2056 88 Red Ramps
-52 -1780 24 Red Ramp Floor
+-328 -2744 24 Red Long Entrance
+200 -3224 -88 Red Spiral Staircase
+536 -3032 24 Red Spiral Spawn
+536 -2824 88 Red Spiral Top
+536 -2552 152 Red Spiral, Top Entrance
+536 -2200 152 Red Ramps, High
+536 -1896 88 Red Ramps
+-56 -1752 24 Red Ramp Floor
 296 -1912 24 Red Cap
--312 -1416 24 Red Side Entry
-384 -1123 24 Red Main Door
-82 -376 24 Red Yard
--1744 4592 -256 Blue Flag
--1681 4155 -232 Blue Flagroom
+-312 -1496 24 Red Side Entry
+536 -1112 24 Red Main Door
+264 -200 24 Red Yard
+-1752 4664 -264 Blue Flag
+-1736 4168 -232 Blue Flagroom
 -1336 4312 -152 Blue Long Stairs
--1504 3880 -184 Blue Flagroom, Pedestal
--1032 3832 -72 Blue Long Path to FR
+-1400 3880 -168 Blue Flagroom, Pedestal
+-1032 3656 -72 Blue Long Path to FR
 -1032 3016 -72 Blue Long Spawn
 -1320 3016 -8 Blue Long Spawn Ramp
--1592 2864 24 Blue Long Entrance
--2159 3497 -84 Blue Spiral Staircase
--2552 3400 24 Blue Spiral Spawn
--2552 3096 88 Blue Spiral Top
--2552 2824 152 Blue Spiral, Top Entrance
--2552 2472 152 Blue Ramps, High
--2320 2328 88 Blue Ramps
--1972 2052 24 Blue Ramp Floor
+-1592 3016 24 Blue Long Entrance
+-2120 3496 -88 Blue Spiral Staircase
+-2456 3304 24 Blue Spiral Spawn
+-2456 3096 88 Blue Spiral Top
+-2456 2824 152 Blue Spiral, Top Entrance
+-2456 2472 152 Blue Ramps, High
+-2456 2168 88 Blue Ramps
+-1864 2024 24 Blue Ramp Floor
 -2216 2184 24 Blue Cap
--1608 1688 24 Blue Side Entry
--2304 1395 24 Blue Main Door
--1864 1084 24 Blue Yard
--2016 8 24 Blue Yard
--947 8 99 Mid Yard Slope
+-1608 1768 24 Blue Side Entry
+-2456 1384 24 Blue Main Door
+-1848 1176 24 Blue Yard
+-2168 8 24 Blue Yard
+-920 8 120 Mid Yard Slope

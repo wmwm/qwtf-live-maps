@@ -1,67 +1,67 @@
-1036 -668 -90 lake
--1068 -140 -82 lake
--1133 72 -5 blue outside base
+1112 -752 -12 lake
+-1144 -56 -4 lake
+-1144 168 0 blue outside base
 760 -752 -24 blue outside base
-1272 -944 -8 red outside base
-1117 -432 -12 ice
--1149 -376 -4 ice
-2044 -528 -140 red water tunnel
+1112 -976 -8 red outside base
+1080 -480 -12 ice
+-1112 -328 -4 ice
+2040 -448 -136 red water tunnel
 280 -752 -8 snow
 -312 -56 0 snow
 520 -816 284 red cappoint
-669 -1280 152 red path to cappoint
+696 -1264 136 red path to cappoint
 1496 -480 216 red balcony
-1822 -474 155 red well resupply
-1843 -875 312 red well spawn
-1858 -752 110 red tunnel
-2392 -192 184 red well area
-2512 -944 184 red well area
-1976 -416 168 red well area outside resup
-1840 -1517 21 red tunnel yard entrance
-1211 -1841 59 red yard
-1472 -1900 -8 red low entrance
-1155 -1253 221 red high traverse
-424 -2027 136 red outside yard spawn
-1384 -2112 136 red high entrance
-1648 -2680 208 red tower stairs
+1912 -496 152 red well resupply
+1832 -864 296 red well spawn
+1928 -800 120 red tunnel
+2600 -192 184 red well area
+2600 -944 184 red well area
+1976 -336 184 red well area outside resup
+1976 -1456 -8 red tunnel yard entrance
+1368 -1792 -8 red yard
+1384 -1968 -8 red low entrance
+1144 -1248 232 red high traverse
+424 -2000 136 red outside yard spawn
+1384 -2048 136 red high entrance
+1784 -2688 168 red tower stairs
 1528 -2016 408 red tower spawn
-360 -2037 136 red yard spawn
-2327 -1584 168 red lower flag area
-2364 -1279 184 red upper flag area
-2648 -1563 184 red flag area
+360 -2000 136 red yard spawn
+2212 -1552 136 red lower flag area
+2184 -1200 184 red upper flag area
+2584 -1616 184 red flag area
 2872 -1712 104 red flagstand
 2184 -1552 136 red STM hideout
--2218 576 144 blue STM hideout
+-2216 744 144 blue STM hideout
 2188 -1216 136 blue STM hideout
--2327 668 180 blue lower flag area
+-2244 744 144 blue lower flag area
 2200 -1152 184 blue lower flag area
-2776 -1208 184 red flag area steps
-2237 -805 296 red well
+2776 -1264 184 red flag area steps
+2168 -752 296 red well
 2264 -816 -120 red bottom of well
-1432 -1248 218 red wall entrance
+1432 -1248 217 red wall entrance
 -2904 904 112 blue flagstand
--2808 400 192 blue flag area steps
--2680 755 192 blue flag area
--2356 472 192 blue upper flag area
--2544 136 192 blue well area
--2424 -616 192 blue well area
--2008 -392 176 blue well area outside resup
--2304 24 304 blue well
+-2808 456 192 blue flag area steps
+-2616 808 192 blue flag area
+-2216 392 192 blue upper flag area
+-2632 136 192 blue well area
+-2216 -616 192 blue well area
+-2008 -312 160 blue well area outside resup
+-2200 -56 304 blue well
 -2296 8 -112 blue bottom of well
--2027 -296 -141 blue water tunnel
+-2072 -360 -128 blue water tunnel
 -1560 1208 416 blue tower spawn
--1680 1872 216 blue tower stairs
--1504 1092 0 blue low entrance
--1241 1039 67 blue yard
--1416 1304 144 blue high entrance
--456 1219 144 blue outside yard spawn
--1872 709 29 blue tunnel yard entrance
--1890 -56 118 blue tunnel
--1464 440 226 blue wall entrance
--1187 445 229 blue high traverse
--392 1229 144 blue yard spawn
--701 472 160 blue path to cappoint
+-1544 1864 256 blue tower stairs
+-1416 1160 0 blue low entrance
+-1400 984 0 blue yard
+-1416 1368 144 blue high entrance
+-456 1192 144 blue outside yard spawn
+-2008 648 0 blue tunnel yard entrance
+-1960 -8 128 blue tunnel
+-1464 440 225 blue wall entrance
+-1176 440 240 blue high traverse
+-392 1192 144 blue yard spawn
+-728 456 144 blue path to cappoint
 -552 8 292 blue cappoint
 -1528 -328 224 blue balcony
--1923 -307 165 blue well resupply
--1875 67 320 blue well spawn
+-1944 -312 160 blue well resupply
+-1864 56 304 blue well spawn

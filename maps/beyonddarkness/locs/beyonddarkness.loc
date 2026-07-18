@@ -1,7 +1,7 @@
-69 1413 -21 red spawn
-1339 1413 -21 red spawn 2
-69 -2270 -21 blue spawn
-1339 -2277 -21 blue spawn 2
+136 1496 -104 red spawn
+1272 1496 -104 red spawn 2
+136 -2360 -104 blue spawn
+1272 -2360 -104 blue spawn 2
 704 3064 -103 blue flag
 704 -3924 -103 red flag
 704 2280 -56 cap1

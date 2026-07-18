@@ -1,5 +1,5 @@
-832 1088 48 red spawn
-832 -704 48 blue spawn
+1088 1088 48 red spawn
+576 -704 48 blue spawn
 832 1728 336 blue flag
 832 -1344 336 red flag
 832 1472 32 blue capture

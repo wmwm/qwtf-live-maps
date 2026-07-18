@@ -3,20 +3,20 @@
 1016 -3320 256 Short
 -760 2536 160 Short ramp
 1112 -2712 160 Short ramp
--32 2280 80 Main room
-256 -2440 80 Main room
+-312 2280 80 Main room
+536 -2440 80 Main room
 920 2424 80 Connector
 -632 -2520 80 Connector
 1400 1912 80 Courtyard
 -1112 -1992 80 Courtyard
 1176 1224 80 Red's Church
-115 1064 80 Outside entrance
-99 -1160 80 Outside entrance
+88 1320 80 Outside entrance
+72 -1416 80 Outside entrance
 120 920 80 Red's cap point
 -664 1704 80 Red entrance
 104 -1016 80 Blue's cap point
 904 -1784 80 Blue entrance
 -952 -1304 80 Blue's Church
 24 -3352 256 Blue's flagroom
--864 -3200 224 Left side
-1112 3088 216 Left side
+-1128 -3192 176 Left side
+1368 3096 176 Left side

@@ -1,58 +1,58 @@
--851 56 13 Red Yard
--749 1027 8 Red Yard
--1016 -813 93 Yard, Bridge
--1136 -1856 20 Blue Yard
--1264 -2904 8 Blue Yard
-2795 872 99 Red Button Room
-2424 872 104 Above Red FR
+-952 200 8 Red Yard
+-648 856 8 Red Yard
+-1000 -808 72 Yard, Bridge
+-1032 -1688 8 Blue Yard
+-1032 -2904 8 Blue Yard
+2800 872 88 Red Button Room
+2424 1000 104 Above Red FR
 2456 568 72 Red Catwalk Stairs, Right
 2456 1160 72 Red Catwalk Stairs, Left
-2120 1416 40 Red Catwalk, Left
+2408 1416 40 Red Catwalk, Left
 1368 1432 72 Red Catwalk Ramp, Left
-2120 312 40 Red Catwalk, Right
+1832 312 40 Red Catwalk, Right
 1368 312 72 Red Catwalk Ramp, Right
-792 280 88 Red Foyer Catwalk, Right
-840 1416 88 Red Foyer Catwalk, Left
+568 280 88 Red Foyer Catwalk, Right
+1064 1416 88 Red Foyer Catwalk, Left
 824 504 40 Red Foyer Stairs
 824 1224 40 Red Foyer Stairs
 472 312 120 Red Stairs to Balcony, Left
 472 1432 120 Red Stairs to Balcony, Right
 168 1432 168 Red Balcony, Left
 168 312 168 Red Balcony, Right
-792 840 8 Red Foyer. Floor
+568 840 8 Red Foyer. Floor
 1352 1064 -56 Red Path to Ramp Room, Right
 1352 680 -56 Red Path to Ramp Room, Left
-1896 840 -104 Red Ramps, Floor
+2136 1016 -104 Red Ramps, Floor
 184 872 8 Red Main Door
 -2216 -2472 8 Red Main Door
--168 1112 8 Red Main Door, Outside
+-168 1368 8 Red Main Door, Outside
 -168 200 8 Red Main Door, Outside
--1016 -800 -56 Yard, Water
+-1032 -840 -56 Yard, Water
 -4440 -2488 -136 Blue FR Entry
 -4824 -2472 -168 Blue Flag
--4832 -2468 -168 Blue FR
+-4824 -2632 -168 Blue FR
 2424 856 -136 Red FR Entry
-2796 868 -168 Red FR
+2808 712 -168 Red FR
 2808 856 -168 Red Flag
--4827 -2472 99 Blue Button Room
--4456 -2472 104 Above Blue FR
+-4832 -2472 88 Blue Button Room
+-4456 -2600 104 Above Blue FR
 -4488 -2168 72 Blue Catwalk Stairs, Right
 -4488 -2760 72 Blue Catwalk Stairs, Left
--4152 -3016 40 Blue Catwalk, Left
+-4440 -3016 40 Blue Catwalk, Left
 -3400 -3032 72 Blue Catwalk Ramp, Left
--4152 -1912 40 Blue Catwalk, Right
+-3864 -1912 40 Blue Catwalk, Right
 -3400 -1912 72 Blue Catwalk Ramp, Right
--2824 -1880 88 Blue Foyer Catwalk, Right
--2872 -3016 88 Blue Foyer Catwalk, Left
+-2600 -1880 88 Blue Foyer Catwalk, Right
+-3096 -3016 88 Blue Foyer Catwalk, Left
 -2856 -2104 40 Blue Foyer, Stairs
 -2856 -2824 40 Blue Foyer, Stairs
 -2504 -1912 120 Blue Stairs to Balcony, Left
 -2504 -3032 120 Blue Stairs to Balcony, Right
 -2200 -3032 168 Blue Balcony, Left
 -2200 -1912 168 Blue Balcony, Right
--2824 -2440 8 Blue Foyer. Floor
+-2600 -2440 8 Blue Foyer. Floor
 -3384 -2664 -56 Blue Path to Ramp Room, Right
 -3384 -2280 -56 Blue Path to Ramp Room, Left
--3928 -2440 -104 Blue Ramps, Floor
--1864 -2712 8 Blue Main Door, Outside
+-4168 -2616 -104 Blue Ramps, Floor
+-1864 -2968 8 Blue Main Door, Outside
 -1864 -1800 8 Blue Main Door, Outside

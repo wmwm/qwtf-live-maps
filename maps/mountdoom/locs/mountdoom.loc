@@ -1,40 +1,40 @@
-1424 712 24 Red low respawn
-2144 736 88 Red dragon hall
+1320 712 24 Red low respawn
+1992 712 88 Red dragon hall
 2136 360 8 Red water room low
 1432 328 152 Red main hall high
-1192 -136 72 Red main hall low
+1208 -120 88 Red main hall low
 1528 -456 152 Red spiral corridor
 1976 -328 248 Red spiral high
-2376 48 168 Red spiral
-2592 1088 296 Red mountain high
+2264 -104 232 Red spiral
+2712 1128 296 Red mountain high
 2584 712 88 Red mountain low
 2776 664 168 Red flagroom stairs
 3048 664 168 Red flagroom entrance
 3240 680 168 Red flag
 1704 312 152 Red water room high
-1460 244 4 Red waterway
+1544 296 -88 Red waterway
 1048 440 152 Red sniper deck
 776 456 152 Red cap point
-1040 768 136 Red high respawn
-1755 786 357 Red high passageway
-40 176 21 Yard high
-40 176 -168 Yard low
--1344 -360 24 Blue low respawn
--2064 -384 88 Blue dragon hall
+1048 664 152 Red high respawn
+1672 904 360 Red high passageway
+184 -104 40 Yard high
+184 184 -168 Yard low
+-1240 -360 24 Blue low respawn
+-1912 -360 88 Blue dragon hall
 -2056 40 8 Blue water room low
 -1352 24 152 Blue main hall high
--1112 488 72 Blue main hall low
+-1128 472 88 Blue main hall low
 -1448 808 152 Blue spiral corridor
 -1896 680 248 Blue spiral high
--2296 304 168 Blue spiral
--2512 -736 296 Blue mountain high
+-2184 456 232 Blue spiral
+-2632 -776 296 Blue mountain high
 -2504 -360 88 Blue mountain low
 -2696 -312 168 Blue flagroom stairs
 -2968 -312 168 Blue flagroom entrance
 -3160 -328 168 Blue flag
 -1624 40 152 Blue water room high
--1380 124 4 Blue waterway
+-1464 88 -88 Blue waterway
 -968 -88 152 Blue sniper deck
 -696 -104 152 Blue cap point
--960 -416 136 Blue high respawn
--1675 -427 357 Blue high passageway
+-968 -312 152 Blue high respawn
+-1592 -552 360 Blue high passageway

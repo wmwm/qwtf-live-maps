@@ -1,7 +1,7 @@
 1696 -448 -320 red spawn
--960 -2656 -320 red spawn 2
+-960 -2624 -320 red spawn 2
 -1696 448 -320 blue spawn
-960 2656 -320 blue spawn 2
+960 2624 -320 blue spawn 2
 640 -3616 64 blue flag
 -640 3616 64 red flag
 648 -2328 32 blue capture

@@ -1,57 +1,57 @@
-94 47 -248 blue ramp room
-5 279 -248 blue tee
+8 8 -248 blue ramp room
+-8 256 -248 blue tee
 840 0 -248 blue respawn hallway
-1257 8 -248 blue respawn
-106 98 -109 blue ramp room catwalk
-544 0 70 blue ramp room lift
-157 75 172 blue attic
+1376 16 -248 blue respawn
+120 144 -218 blue ramp room catwalk
+544 0 -34 blue ramp room lift
+144 128 174 blue attic
 0 264 174 blue attic lift
--4 1061 326 blue catwalk
+8 1448 326 blue catwalk
 8 1512 342 blue flagroom window
--350 1979 326 blue top left flagroom entry
-342 2000 326 blue top right flagroom entry
-4 2072 322 blue flagroom entry
-2 1761 327 blue flagroom
-13 440 -248 blue courtyard
-4 926 -216 blue courtyard bridge
--2 904 -74 blue courtyard bridge wire
--269 1414 -248 blue left lift
-285 1414 -248 blue right lift
+-376 2024 326 blue top left flagroom entry
+400 1944 326 blue top right flagroom entry
+8 2008 326 blue flagroom entry
+8 1768 326 blue flagroom
+8 376 -248 blue courtyard
+40 880 -216 blue courtyard bridge
+80 920 -40 blue courtyard bridge wire
+-312 1440 -248 blue left lift
+328 1440 -248 blue right lift
 0 1480 -248 blue courtyard respawn door
-3 1788 -248 blue courtyard respawn
--280 1995 -248 blue bottom left flagroom
-280 1995 -248 blue bottom right flagroom
--3 895 -392 blue water
--8 876 -432 blue water under bridge
-931 933 -406 blue water tunnel
--826 912 -408 blue water tunnel
-1459 0 -409 water tunnel
--1459 0 -409 water tunnel
--1257 -8 -248 red respawn
+-8 1752 -248 blue courtyard respawn
+-280 2040 -248 blue bottom left flagroom
+280 2040 -248 blue bottom right flagroom
+-184 960 -432 blue water
+-40 944 -432 blue water under bridge
+1008 912 -406 blue water tunnel
+-808 912 -408 blue water tunnel
+1458 216 -408 water tunnel
+-1458 216 -410 water tunnel
+-1376 -16 -248 red respawn
 -840 0 -248 red respawn hallway
--94 -47 -248 red ramp room
--106 -98 -109 red ramp room catwalk
--544 0 70 red ramp room lift
--157 -75 172 red attic
+-8 -8 -248 red ramp room
+-120 -144 -218 red ramp room catwalk
+-544 0 -34 red ramp room lift
+-144 -128 174 red attic
 0 -264 174 red attic lift
-4 -1061 326 red catwalk
-350 -1979 326 red top left flagroom entry
--342 -2000 326 red top right flagroom entry
--4 -2072 322 red flagroom entry
--2 -1761 327 red flagroom
+-8 -1448 326 red catwalk
+376 -2024 326 red top left flagroom entry
+-400 -1944 326 red top right flagroom entry
+0 -2136 318 red flagroom entry
+-8 -1768 326 red flagroom
 -8 -1512 342 red flagroom window
-269 -1414 -248 red left lift
-280 -1995 -248 red bottom left flagroom
--280 -1995 -248 red bottom right flagroom
--285 -1414 -248 red right lift
--4 -1352 -216 red Courtyard bridge
--4 -878 -216 red courtyard bridge
+312 -1440 -248 red left lift
+280 -2040 -248 red bottom left flagroom
+-280 -2040 -248 red bottom right flagroom
+-328 -1440 -248 red right lift
+32 -1352 -216 red Courtyard bridge
+-40 -880 -216 red courtyard bridge
 0 -1480 -248 red courtyard respawn door
--3 -1788 -248 red courtyard respawn
-2 -904 -74 red courtyard bridge wire
--13 -440 -248 red courtyard
-3 -895 -392 red water
-8 -876 -432 red water under bridge
-826 -912 -408 red water tunnel
--826 -912 -406 red water tunnel
--5 -279 -248 red tee
+8 -1752 -248 red courtyard respawn
+-80 -920 -40 red courtyard bridge wire
+-8 -376 -248 red courtyard
+184 -960 -432 red water
+-24 -808 -432 red water under bridge
+808 -912 -408 red water tunnel
+-808 -912 -406 red water tunnel
+8 -256 -248 red tee

@@ -1,87 +1,87 @@
-2077 784 248 Blue Lava
+2024 872 248 Blue Lava
 568 872 120 Blue Lava
 872 824 248 Blue Bloody Rock
-160 736 120 Blue Lava Jump Corner
-1198 725 904 Blue Roof Thin Wall
-2117 -37 904 Blue Roof
-2688 488 488 Blue Window
-2712 344 408 Blue Flag Room Ramp
+296 872 120 Blue Lava Jump Corner
+1256 728 904 Blue Roof Thin Wall
+2104 -40 904 Blue Roof
+2552 488 488 Blue Window
+2568 344 408 Blue Flag Room Ramp
 2696 8 408 Blue Flag Room Middle
 2792 -232 408 Blue Flag Stand
 2776 -584 408 Blue Flag Room Water Door
 2536 -584 408 Blue Flag Room Spawn Door
 2504 -120 408 Blue Flag Room Main Entry
-2664 -888 408 Blue Water High Platform
-1902 -750 280 Blue Spawn
+2792 -712 408 Blue Water High Platform
+1928 -760 312 Blue Spawn
 2264 -56 408 Blue Ramp Room High Middle
 2264 248 408 Blue Ramp Room High, Lava Side
 2264 -392 408 Blue Ramp Room High, Spawn Side
-1699 -520 232 Blue Ramp Room, Spawn Side Ramp
-1651 392 195 Blue Ramp Room, Lava Side Ramp
-1864 88 168 Blue Ramp Room Main Ramp, Lava Side
-1864 -243 168 Blue Ramp Room Main Ramp, Spawn Side
+1752 -520 248 Blue Ramp Room, Spawn Side Ramp
+1672 392 200 Blue Ramp Room, Lava Side Ramp
+1864 88 200 Blue Ramp Room Main Ramp, Lava Side
+1864 -232 200 Blue Ramp Room Main Ramp, Spawn Side
 1304 -248 72 Blue Ramp Room, Front Door, Spawn Side
 1304 88 72 Blue Ramp Room, Front Door, Lava Side
 1016 104 72 Blue Double Dragon Doors, Lava Side
 1032 -248 72 Blue Double Dragon Doors, Spawn Side
-1288 600 72 Blue Capture Corridor
+1272 600 72 Blue Capture Corridor
 1912 600 72 Blue Capture Point
 728 -808 72 Blue Double Dragon Doors, Spawn
-463 -143 72 Blue Yard
-976 -1072 72 Blue Yard, Water Entry
-1528 -1288 72 Blue Water Main Entry
-1720 -1208 872 Blue Secret Area
+648 24 72 Blue Yard
+744 -1048 72 Blue Yard, Water Entry
+1528 -1160 72 Blue Water Main Entry
+1720 -1048 872 Blue Secret Area
 1720 -1448 56 Blue Water, Under Wall
-2045 -1192 72 Blue Water, Near Platform
-1496 -2172 56 Blue Water, Long Tunnel
-389 -2387 56 Blue Holy Water
-469 -1893 72 Blue Yard Hill
--48 -1352 60 Blue Entry Crosses
--636 -1304 24 Bridge, Blue Side
--568 -888 24 Bridge, Middle
--584 -1436 -72 Bridge Water, Blue Side
--960 -2256 -72 Blue Health Pack
--488 -2456 -40 Blue Health Pack Tunnel
--3213 -2560 248 Red Lava
+1960 -1080 72 Blue Water, Near Platform
+1720 -2152 56 Blue Water, Long Tunnel
+392 -2536 56 Blue Holy Water
+392 -2056 72 Blue Yard Hill
+8 -1320 72 Blue Entry Crosses
+-744 -1208 24 Bridge, Blue Side
+-504 -1016 24 Bridge, Middle
+-584 -1432 -72 Bridge Water, Blue Side
+-968 -2072 -72 Blue Health Pack
+-696 -2456 -72 Blue Health Pack Tunnel
+-3160 -2648 248 Red Lava
 -1704 -2648 120 Red Lava
 -2008 -2600 248 Red Bloody Rock
--1296 -2512 120 Red Lava Jump Corner
--2334 -2501 904 Red Roof Thin Wall
--3253 -1739 904 Red Roof
--3824 -2264 488 Red Window
--3848 -2120 408 Red Flag Room Ramp
+-1432 -2648 120 Red Lava Jump Corner
+-2392 -2504 904 Red Roof Thin Wall
+-3240 -1736 904 Red Roof
+-3688 -2264 488 Red Window
+-3704 -2120 408 Red Flag Room Ramp
 -3832 -1784 408 Red Flag Room Middle
 -3928 -1544 408 Red Flag Stand
 -3912 -1192 408 Red Flag Room Water Door
 -3672 -1192 408 Red Flag Room Spawn Door
 -3640 -1656 408 Red Flag Room Main Entry
--3800 -888 408 Red Water High Platform
--3042 -1026 280 Red Spawn
+-3928 -1064 408 Red Water High Platform
+-3064 -1016 312 Red Spawn
 -3400 -1720 408 Red Ramp Room High Middle
 -3400 -2024 408 Red Ramp Room High, Lava Side
 -3400 -1384 408 Red Ramp Room High, Spawn Side
--2835 -1256 232 Red Ramp Room, Spawn Side Ramp
--2787 -2168 195 Red Ramp Room, Lava Side Ramp
--3000 -1864 168 Red Ramp Room Main Ramp, Lava Side
--3000 -1533 168 Red Ramp Room Main Ramp, Spawn Side
+-2888 -1256 248 Red Ramp Room, Spawn Side Ramp
+-2808 -2168 200 Red Ramp Room, Lava Side Ramp
+-3000 -1864 200 Red Ramp Room Main Ramp, Lava Side
+-3000 -1544 200 Red Ramp Room Main Ramp, Spawn Side
 -2440 -1528 72 Red Ramp Room, Front Door, Spawn Side
 -2440 -1864 72 Red Ramp Room, Front Door, Lava Side
 -2152 -1880 72 Red Double Dragon Doors, Lava Side
 -2168 -1528 72 Red Double Dragon Doors, Spawn Side
--2424 -2376 72 Red Capture Corridor
+-2408 -2376 72 Red Capture Corridor
 -3048 -2376 72 Red Capture Point
 -1864 -968 72 Red Double Dragon Doors, Spawn
--1599 -1633 72 Red Yard
--2112 -704 72 Red Yard, Water Entry
--2664 -488 72 Red Water Main Entry
--2856 -568 872 Red Secret Area
+-1784 -1800 72 Red Yard
+-1880 -728 72 Red Yard, Water Entry
+-2664 -616 72 Red Water Main Entry
+-2856 -728 872 Red Secret Area
 -2856 -328 56 Red Water, Under Wall
--3181 -584 72 Red Water, Near Platform
--2632 396 56 Red Water, Long Tunnel
--1525 611 56 Red Holy Water
--1605 117 72 Red Yard Hill
--1088 -424 60 Red Entry Crosses
--500 -472 24 Bridge, Red Side
--552 -340 -72 Bridge Water, Red Side
--176 480 -72 Red Health Pack
--648 680 -40 Red Health Pack Tunnel
+-3096 -696 72 Red Water, Near Platform
+-2856 376 56 Red Water, Long Tunnel
+-1528 760 56 Red Holy Water
+-1528 280 72 Red Yard Hill
+-1144 -456 72 Red Entry Crosses
+-392 -568 24 Bridge, Red Side
+-552 -344 -72 Bridge Water, Red Side
+-168 296 -72 Red Health Pack
+-440 680 -72 Red Health Pack Tunnel

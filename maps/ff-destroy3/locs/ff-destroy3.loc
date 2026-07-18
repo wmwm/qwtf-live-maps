@@ -1,7 +1,7 @@
--104 1347 -80 red spawn
-72 2336 -168 red spawn 2
-104 -1346 -80 blue spawn
--88 -2336 -168 blue spawn 2
+-135 1368 -80 red spawn
+72 2296 -168 red spawn 2
+135 -1367 -80 blue spawn
+-88 -2296 -168 blue spawn 2
 -1344 3888 -40 blue flag
 1344 -3888 -40 red flag
 1352 936 3096 teleporter

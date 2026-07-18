@@ -1,6 +1,6 @@
-899 977 -208 team1 spawn
-899 1839 -208 team2 spawn
-1040 1408 -200 team1 resupply
-632 1408 -20 wind vent
+816 977 -208 team1 spawn
+816 1839 -208 team2 spawn
+1040 1328 -200 team1 resupply
+624 1232 0 wind vent
 1600 512 32 wind vent
 1600 2304 32 wind vent

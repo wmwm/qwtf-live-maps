@@ -1,7 +1,7 @@
-2235 -482 287 red spawn
-1821 -2669 512 red spawn 2
--2235 485 287 blue spawn
--1816 2701 512 blue spawn 2
+2206 -450 287 red spawn
+1848 -2696 512 red spawn 2
+-2206 458 287 blue spawn
+-1848 2728 512 blue spawn 2
 -560 2692 264 red flag
 560 -2684 264 blue flag
 -1824 1864 432 flickering light

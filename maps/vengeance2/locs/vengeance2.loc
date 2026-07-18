@@ -1,27 +1,27 @@
 -1856 -1008 264 ŽÒŽ Side Spawn
--928 -696 152 ŽÒŽ Side Entrance
--1568 368 72 ŽÒŽ Main Entrance
+-928 -384 136 ŽÒŽ Side Entrance
+-1296 368 72 ŽÒŽ Main Entrance
 -2400 -1008 168 ŽÒŽ Side Hall
--2688 -724 208 ŽÒŽ Ramp
+-2688 -872 168 ŽÒŽ Ramp
 -2688 -144 312 ŽÒŽ Ramp, Top
 -3032 -144 312 ŽÒŽ FR, Ramp Side
 -3032 464 264 ŽÒŽ FR, Spiral Side
 -2488 472 264 ŽÒŽ Spiral, Top
 -2480 1232 168 ŽÒŽ Spiral, Mid
 -1872 1232 72 ŽÒŽ Spiral, Low
--3624 160 300 ŽÒŽ FR
+-3320 -144 312 ŽÒŽ FR
 1920 1616 264 ŽBŽ Side Spawn
-992 1304 152 ŽBŽ Side Entrance
-1632 240 72 ŽBŽ Main Entrance
+992 992 136 ŽBŽ Side Entrance
+1360 240 72 ŽBŽ Main Entrance
 2464 1616 168 ŽBŽ Side Hall
-2752 1332 208 ŽBŽ Ramp
+2752 1480 168 ŽBŽ Ramp
 2752 752 312 ŽBŽ Ramp, Top
 3096 752 312 ŽBŽ FR, Ramp Side
 3096 144 264 ŽBŽ FR, Spiral Side
 2552 136 264 ŽBŽ Spiral, Top
 2544 -624 168 ŽBŽ Spiral, Mid
 1936 -624 72 ŽBŽ Spiral, Low
-3688 448 300 ŽBŽ FR
--928 355 72 ŽÒŽ Yard
-992 269 72 ŽBŽ Yard
-32 304 112 Mid Yard
+3384 752 312 ŽBŽ FR
+-928 368 72 ŽÒŽ Yard
+992 256 72 ŽBŽ Yard
+32 304 168 Mid Yard

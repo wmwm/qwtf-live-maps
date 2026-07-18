@@ -1,18 +1,18 @@
 1544 824 -40 Long corridor (sewer bridge)
-1800 744 -40 Sewers bridge
-8 -72 -56 Cap point (platform)
-8 232 -104 Train Station (start)
-16 664 -104 Train Station corridor
-8 707 -104 Ramp Room
+1544 776 -40 Sewers bridge
+-8 -72 -56 Cap point (platform)
+-8 -56 -104 Train Station (start)
+-280 568 -104 Train Station corridor
+40 600 -104 Ramp Room
 -24 1080 -40 RR (Ramp)
-56 1453 8 RR top
+216 1432 8 RR top
 568 1448 8 Spiral top
 904 1432 -120 Spiral low
 728 1432 -40 Spiral ramp
 8 1736 8 RR (long)
-1029 1595 -40 Long corridor
-2256 856 -56 Yard (Respawn)
-1028 884 -92 Flag room
-1176 1288 8 Flag room (plat)
-1155 1256 -120 Flag room (low)
+856 1752 -40 Long corridor
+2376 1000 -56 Yard (Respawn)
+1064 856 -88 Flag room
+1176 1352 8 Flag room (plat)
+1160 1256 -120 Flag room (low)
 888 600 -56 Flag (wooden plat)

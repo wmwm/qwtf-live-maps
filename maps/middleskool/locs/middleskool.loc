@@ -1,20 +1,20 @@
--420 2199 553 blue top green
-356 2199 553 blue top purple
--219 3281 264 blue lower green pool room
-155 3281 264 blue lower purple pool room
--16 3246 181 blue inside pool
+-552 2216 536 blue top green
+488 2216 536 blue top purple
+-328 3320 264 blue lower green pool room
+264 3320 264 blue lower purple pool room
+72 3256 184 blue inside pool
 -32 2880 312 blue diving board
--35 1019 576 blue outside top
--352 1593 305 blue lower green hallway
--36 963 328 blue front door
-310 1623 304 blue lower purple hallway
--32 0 244 outside
--36 -963 328 red front door
-302 -1623 304 red lower green hallway
--374 -1623 304 red lower purple hallway
--219 -3281 264 red lower purple pool room
-155 -3281 264 red lower green pool room
--48 -3246 181 red inside pool
-356 -2199 553 red top green
--420 -2199 553 red top purple
--35 -1033 576 red outside top
+-40 1032 576 blue outside top
+-496 1608 328 blue lower green hallway
+-40 952 328 blue front door
+440 1608 328 blue lower purple hallway
+-16 24 208 outside
+-24 -952 328 red front door
+432 -1608 328 red lower green hallway
+-504 -1608 328 red lower purple hallway
+-328 -3320 264 red lower purple pool room
+264 -3320 264 red lower green pool room
+-136 -3256 184 red inside pool
+488 -2216 536 red top green
+-552 -2216 536 red top purple
+-24 -1032 576 red outside top

@@ -1,7 +1,7 @@
-729 1974 255 red spawn
--889 1974 255 red spawn 2
--672 -1984 255 blue spawn
-960 -1984 255 blue spawn 2
+800 1953 255 red spawn
+-960 1953 255 red spawn 2
+-736 -2016 255 blue spawn
+1024 -2016 255 blue spawn 2
 -80 2000 96 blue flag
 144 -2000 96 red flag
-32 0 -104 lava pit
+72 -200 -104 lava pit

@@ -1,74 +1,74 @@
 -1976 424 -136 R waterway (long corridor)
--1306 627 -109 R waterway
-1138 -1324 -108 B waterway
+-1256 424 -104 R waterway
+1080 -1272 -104 B waterway
 -1240 568 -104 B waterway
 -536 904 -88 R waterway (entrance)
-1684 -856 156 B long corridor (stairs)
-3472 -896 -40 B long corridor
+1832 -664 232 B long corridor (stairs)
+3432 -616 -40 B long corridor
 1864 -904 -40 B long corridor
 2648 -904 -40 B long corridor
-3373 -1683 -48 B flag room
+3352 -1704 -48 B flag room
 3896 -1736 -40 B flagroom (flag)
 3192 -1640 8 B flag room (platform)
-2648 -1888 -12 B flag room (mid entrance)
+2840 -2040 -48 B flag room (mid entrance)
 2888 -2408 -40 B drop hole (low)
 2920 -2408 168 B drop hole (mid)
 2872 -2392 280 B drop hole (top)
 2584 -2584 280 B lifts (top)
-2336 -2568 112 B way to lifts
-2136 -1736 128 B fr mid entrance
+2472 -2568 72 B way to lifts
+2312 -1736 40 B fr mid entrance
 1848 -2808 168 B respawn
 1896 -2600 168 B way to respawn
-1842 -1794 232 B rr top (flagroom side)
-1328 -2156 128 B rr stairs
+1848 -1800 232 B rr top (flagroom side)
+1320 -2232 88 B rr stairs
 1672 -1608 8 B behind the flag (rr)
-1311 -1661 8 Blue ramp room low
-816 -1816 232 B rr top (entrance side)
-701 -1085 120 B entrance stairs to rr
+1320 -1880 8 Blue ramp room low
+808 -1704 232 B rr top (entrance side)
+808 -1160 200 B entrance stairs to rr
 712 -2424 168 B entrance stairs to rr
 1640 -1608 184 Blue rr platform (top)
-533 -1624 8 Blue entrance (inside)
-504 -2173 109 B stairs to sniper deck
-448 -1648 236 Blue sniper deck
-131 -1613 3 Blue entrance (outside)
+584 -1624 8 Blue entrance (inside)
+392 -2152 168 B stairs to sniper deck
+448 -1912 236 Blue sniper deck
+-40 -1624 -8 Blue entrance (outside)
 168 -1608 -8 B entrance to ww (outside)
 448 -1624 236 B sniper deck (cap point)
--392 -1312 -64 Blue yard
--352 -520 -72 Blue way to red (yard)
+-232 -1592 -72 Blue yard
+-552 -680 -72 Blue way to red (yard)
 -552 -856 -72 Blue yard gate
--1844 152 156 R long corridor (stairs)
--3632 336 -40 R long corridor
+-1992 -40 232 R long corridor (stairs)
+-3592 200 -40 R long corridor
 -2024 200 -40 R long corridor
 -2808 200 -40 R long corridor
--3533 979 -48 R flag room
+-3512 1000 -48 R flag room
 -4056 1032 -40 R flagroom (flag)
 -3352 936 8 R flag room (platform)
--2808 1184 -12 R flag room (mid entrance)
+-3000 1336 -48 R flag room (mid entrance)
 -3048 1704 -40 R drop hole (low)
 -3080 1704 168 R drop hole (mid)
 -3032 1688 280 R drop hole (top)
 -2744 1880 280 R lifts (top)
--2496 1864 112 R way to lifts
--2296 1032 128 R fr mid entrance
+-2632 1864 72 R way to lifts
+-2472 1032 40 R fr mid entrance
 -2008 2104 168 R respawn
 -2056 1896 168 R way to respawn
--2002 1090 232 R rr top (flagroom side)
--1488 1452 128 R rr stairs
+-2008 1096 232 R rr top (flagroom side)
+-1480 1528 88 R rr stairs
 -1832 904 8 R behind the flag (rr)
--1471 957 8 Red ramp room low
--1488 1352 8 R entrance to ww (rr)
--976 1112 232 R rr top (entrance side)
--861 381 120 R entrance stairs to rr
+-1480 1176 8 Red ramp room low
+-1656 1352 8 R entrance to ww (rr)
+-968 1000 232 R rr top (entrance side)
+-968 456 200 R entrance stairs to rr
 -872 1720 168 R entrance stairs to rr
 -1800 904 184 Red rr platform (top)
--693 920 8 Red entrance (inside)
--664 1469 109 R stairs to sniper deck
--608 944 236 Red sniper deck
--291 909 3 Red entrance (outside)
+-744 920 8 Red entrance (inside)
+-552 1448 168 R stairs to sniper deck
+-608 1208 236 Red sniper deck
+-120 920 -8 Red entrance (outside)
 -328 904 -8 R entrance to ww (outside)
 -608 920 236 R sniper deck (cap point)
-232 608 -64 Red yard
-192 -184 -72 Red way to blue (yard)
+72 888 -72 Red yard
+392 -24 -72 Red way to blue (yard)
 392 152 -72 Red yard gate
 1816 -1128 -136 B waterway (long corridor)
 376 -1608 -88 B waterway (entrance)

@@ -1,7 +1,7 @@
--616 536 -80 team1 spawn
-488 536 -80 team1 spawn 2
-488 -792 -80 team2 spawn
--616 -792 -80 team2 spawn 2
+-552 536 -224 team1 spawn
+424 536 -224 team1 spawn 2
+424 -792 -224 team2 spawn
+-552 -792 -224 team2 spawn 2
 -64 -2848 64 flag_two
 -64 2592 56 flag_one
 -64 1152 54 cappoint_one

@@ -1,15 +1,15 @@
-72 -16 40 middle yard
-634 -1278 118 R yard bridge
-80 -947 -88 R yard
-444 -1388 -88 R yard to canal
+40 88 40 middle yard
+648 -1088 120 R yard bridge
+96 -944 -88 R yard
+440 -1240 -88 R yard to canal
 440 -1896 -32 R canal ramp (yard)
--135 -2815 -8 R canal
+24 -2944 -8 R canal
 264 -1824 184 R yard bridge entrance
--206 -2224 118 R ramp room high
--491 -2757 120 R high corridor
--214 -1933 -43 R ramp room low
--240 -1300 -64 R entrance
--1403 -1712 -8 R hall
+-304 -2296 72 R ramp room high
+-632 -3024 120 R high corridor
+-320 -2008 -24 R ramp room low
+-248 -1440 -56 R entrance
+-1408 -1584 -8 R hall
 -1840 -1840 56 R flagroom door
 -704 -1664 -48 R ramp
 64 -1816 184 R yard bridge entrance (rr)
@@ -18,8 +18,8 @@
 -440 -3168 -8 R respawn bridge (low)
 -1096 -2688 120 R flagroom (corridor)
 -1448 -3080 8 R flag
--1497 -2788 -104 R flag room water
--1366 -2486 36 R flagroom
+-1464 -2824 -104 R flag room water
+-1464 -2568 24 R flagroom
 -1152 -2000 120 R hall platform
 -1184 -2232 120 R hall platform (fr)
 -1824 -2720 120 R flagroom (computers)
@@ -27,17 +27,17 @@
 -1816 -1552 56 R hall respawn (plat)
 -1432 -1128 56 R hall respawn
 -1824 -976 56 R hall respawn corridor
--490 1246 118 B yard bridge
-64 915 -88 B yard
--300 1356 -88 B yard to canal
+-504 1056 120 B yard bridge
+48 912 -88 B yard
+-296 1208 -88 B yard to canal
 -296 1864 -32 B canal ramp (yard)
-279 2783 -8 B canal
+120 2912 -8 B canal
 -120 1792 184 B yard bridge entrance
-350 2192 118 B ramp room high
-635 2725 120 B high corridor
-358 1901 -43 B ramp room low
-384 1268 -64 B entrance
-1640 1644 -8 B hall
+448 2264 72 B ramp room high
+776 2992 120 B high corridor
+464 1976 -24 B ramp room low
+392 1408 -56 B entrance
+1552 1552 -8 B hall
 1984 1808 56 B flagroom door
 848 1632 -48 B ramp
 80 1784 184 B yard bridge entrance (rr)
@@ -46,8 +46,8 @@
 584 3136 -8 B respawn bridge (low)
 1240 2656 120 B flagroom (corridor)
 1592 3048 8 B flag
-1641 2756 -104 B flag room water
-1510 2454 36 B flagroom
+1608 2792 -104 B flag room water
+1608 2536 24 B flagroom
 1296 1968 120 B hall platform
 1328 2200 120 B hall platform (fr)
 1968 2688 120 B flagroom (computers)

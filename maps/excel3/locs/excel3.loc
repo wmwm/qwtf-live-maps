@@ -1,21 +1,21 @@
-0 1216 -80 Middle Yard
+280 1272 -72 Middle Yard
 280 1464 -72 Blue Yard
 -376 1480 -56 Blue Yard
-8 1776 88 Blue Sniper Deck
-16 1728 -40 Blue Front Door
+248 1784 88 Blue Sniper Deck
+200 1736 -40 Blue Front Door
 -424 2088 -40 Blue Front Entry, Lift Side
 440 2056 -40 Blue Front Entry, Dragon Side
 664 2088 88 Blue Sniper Deck Hall, Dragon Side
 -632 2040 88 Blue Sniper Deck Hall, Lift Side
 -648 2536 -56 Blue Sniper Deck Hall Entry, Lift Side
 664 2616 -56 Blue Sniper Deck Hall Entry, Dragon Side
-440 3016 -88 Blue Ramp Room Platform, Dragon Side
--392 2984 -88 Blue Ramp Room Platform, Lift Side
--328 2771 -200 Blue Ramp Room Boxes, Lift Side
-312 2765 -200 Blue Ramp Room Boxes, Dragon Side
--8 2808 -216 Blue Capture Point
-344 2432 -128 Blue Front Door Ramp, Dragon Side
--352 2440 -136 Blue Front Door Ramp, Lift Side
+440 2936 -88 Blue Ramp Room Platform, Dragon Side
+-392 2888 -88 Blue Ramp Room Platform, Lift Side
+-312 2776 -200 Blue Ramp Room Boxes, Lift Side
+328 2760 -200 Blue Ramp Room Boxes, Dragon Side
+-8 2888 -216 Blue Capture Point
+280 2440 -152 Blue Front Door Ramp, Dragon Side
+-280 2456 -152 Blue Front Door Ramp, Lift Side
 -8 2312 -88 Blue Front Entry Platform
 8 2520 -200 Blue Ramp Room Front Floor
 8 3080 -200 Blue Ramp Room Banner Floor
@@ -25,38 +25,38 @@
 904 2840 -200 Blue Respawn, Dragon Side
 -568 3064 -248 Blue Respawn Hall, Lift Side
 -728 2760 -200 Blue Respawn, Lift Side
--792 2288 -200 Blue Lift, Low
+-920 2264 -200 Blue Lift, Low
 -952 2488 152 Blue Lift, High
 -792 2728 152 Blue Lift Upper Hall
 -664 3128 152 Blue Flag Room Entry, Lift Side
--648 3603 56 Blue Spiral, Lift Side
+-776 3672 72 Blue Spiral, Lift Side
 -8 2872 152 Blue Flag Room Stand
 520 2600 152 Blue Flag Room Entry, Resup Side
-888 2864 152 Blue Upper Resupply
-691 3517 99 Blue Spiral, Resupply Side
+1000 2824 152 Blue Upper Resupply
+792 3560 88 Blue Spiral, Resupply Side
 24 3672 -40 Blue Spiral Entry, Middle
 -328 3400 -40 Blue Spiral Entry, Lift Side
 296 3384 -40 Blue Spiral Entry, Dragon Side
--176 3040 152 Blue Flag Room, Lift Side
-160 2736 152 Blue Flag Room, Resupply Side
+-72 3176 152 Blue Flag Room, Lift Side
+56 2568 152 Blue Flag Room, Resupply Side
 648 2728 -264 Blue Dragon
 -280 968 -72 Red Yard
 376 952 -56 Red Yard
--8 656 88 Red Sniper Deck
--16 704 -40 Red Front Door
+-248 648 88 Red Sniper Deck
+-200 696 -40 Red Front Door
 424 344 -40 Red Front Entry, Lift Side
 -440 376 -40 Red Front Entry, Dragon Side
 -664 344 88 Red Sniper Deck Hall, Dragon Side
 632 392 88 Red Sniper Deck Hall, Lift Side
 648 -104 -56 Red Sniper Deck Hall Entry, Lift Side
 -664 -184 -56 Red Sniper Deck Hall Entry, Dragon Side
--440 -584 -88 Red Ramp Room Platform, Dragon Side
-392 -552 -88 Red Ramp Room Platform, Lift Side
-328 -339 -200 Red Ramp Room Boxes, Lift Side
--312 -333 -200 Red Ramp Room Boxes, Dragon Side
-8 -376 -216 Red Capture Point
--344 0 -128 Red Front Door Ramp, Dragon Side
-352 -8 -136 Red Front Door Ramp, Lift Side
+-440 -504 -88 Red Ramp Room Platform, Dragon Side
+392 -456 -88 Red Ramp Room Platform, Lift Side
+312 -344 -200 Red Ramp Room Boxes, Lift Side
+-328 -328 -200 Red Ramp Room Boxes, Dragon Side
+8 -456 -216 Red Capture Point
+-280 -8 -152 Red Front Door Ramp, Dragon Side
+280 -24 -152 Red Front Door Ramp, Lift Side
 8 120 -88 Red Front Entry Platform
 -8 -88 -200 Red Ramp Room Front Floor
 -8 -648 -200 Red Ramp Room Banner Floor
@@ -66,18 +66,18 @@
 -904 -408 -200 Red Respawn, Dragon Side
 568 -632 -248 Red Respawn Hall, Lift Side
 728 -328 -200 Red Respawn, Lift Side
-792 144 -200 Red Lift, Low
+920 168 -200 Red Lift, Low
 952 -56 152 Red Lift, High
 792 -296 152 Red Lift Upper Hall
 664 -696 152 Red Flag Room Entry, Lift Side
-648 -1171 56 Red Spiral, Lift Side
+776 -1240 72 Red Spiral, Lift Side
 8 -440 152 Red Flag Room Stand
 -520 -168 152 Red Flag Room Entry, Resup Side
--888 -432 152 Red Upper Resupply
--691 -1085 99 Red Spiral, Resupply Side
+-1000 -392 152 Red Upper Resupply
+-792 -1128 88 Red Spiral, Resupply Side
 -24 -1240 -40 Red Spiral Entry, Middle
 328 -968 -40 Red Spiral Entry, Lift Side
 -296 -952 -40 Red Spiral Entry, Dragon Side
-176 -608 152 Red Flag Room, Lift Side
--160 -304 152 Red Flag Room, Resupply Side
+72 -744 152 Red Flag Room, Lift Side
+-56 -136 152 Red Flag Room, Resupply Side
 -648 -296 -264 Red Dragon
