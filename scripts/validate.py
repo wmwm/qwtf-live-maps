@@ -44,7 +44,7 @@ def check_loc(path):
 
 def check_yaml(path):
     required = {"brackets", "source", "play_count", "author", "license_note",
-                "has_bsp", "has_ent", "has_textures", "loc_status"}
+                "has_bsp", "has_ent", "has_textures", "loc_status", "asset_provenance"}
     text = path.read_text()
     present = {line.split(":", 1)[0].strip().lstrip("- ") for line in text.splitlines()
                if ":" in line or line.strip().startswith("-")}

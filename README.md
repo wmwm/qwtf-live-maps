@@ -101,7 +101,7 @@ See `docs/superpowers/specs/2026-07-18-qwtf-live-maps-design.md` for the full ph
 | `sanctuary_b9` | 1 | bsp | author-in-map |
 | `spring_b4` | 1 | bsp | author-in-map |
 | `vengeance2` | 1 | bsp+tex | author-in-map |
-| `box4` | 0 | **missing** | missing |
+| `box4` | 0 | bsp | heuristic-unreviewed |
 | `nightshacksb5` | 0 | **missing** | missing |
 
 ## 4v4
@@ -164,11 +164,16 @@ Found via real match data on logs.qwtf.live, not the Discord `!maps` output — 
 - `wellgl1` — 2 matches, assets: yes
 - `xpress3` — 5 matches, assets: yes
 
-## Gaps — no local asset found
+## Sourced from an external archive, not this workspace
 
-These are in scope but no `.bsp` exists anywhere in this workspace. Not invented, not silently dropped — need sourcing.
+Not present in any local copy — pulled from [maps.quakeworld.nu](https://maps.quakeworld.nu/all/)'s public map archive after confirming an exact filename match. Flagged separately from workspace-local assets since that provenance is weaker (not verified byte-identical to whatever QWTF Live's own servers actually run) — worth a playtester's sanity check before treating as equivalent.
 
 - `box4`
+
+## Gaps — no asset found anywhere, including public archives
+
+These are in scope but no `.bsp` exists in this workspace, and a check against maps.quakeworld.nu's own "every known QuakeWorld map" archive came up empty too. Not invented, not silently dropped — genuinely need sourcing from wherever QWTF Live's own servers get them.
+
 - `elusive`
 - `fracturex2`
 - `h4rdcoremini`

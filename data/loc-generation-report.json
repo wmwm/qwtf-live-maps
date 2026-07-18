@@ -48,6 +48,10 @@
       "source": "heuristic",
       "count": 8
     },
+    "box4": {
+      "source": "heuristic",
+      "count": 8
+    },
     "canal_b7": {
       "source": "author-in-map",
       "count": 57
@@ -397,7 +401,12 @@
     "1on1forts",
     "2fort5r"
   ],
-  "no_bsp": [],
+  "no_bsp": [
+    "elusive",
+    "fracturex2",
+    "h4rdcoremini",
+    "nightshacksb5"
+  ],
   "unparseable": [],
   "zero_entries": []
 }

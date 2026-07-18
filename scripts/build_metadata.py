@@ -71,6 +71,10 @@ def main():
         else:
             loc_status = "missing"
 
+        bsp_source = h.get("bsp_source") or ""
+        asset_provenance = "external-archive" if bsp_source.startswith("external:") else (
+            "workspace-local" if h.get("bsp") else "none")
+
         meta = {
             "brackets": brackets if brackets else [],
             "source": "rotation+logs" if (in_rotation and name in crossref["match_counts"] and crossref["match_counts"].get(name))
@@ -82,6 +86,7 @@ def main():
             "has_ent": h.get("ent", False),
             "has_textures": h.get("textures", False),
             "loc_status": loc_status,
+            "asset_provenance": asset_provenance,
         }
         per_map_meta[name] = meta
         map_dir = MAPS_DIR / name
@@ -147,12 +152,29 @@ def build_readme(per_map_meta, map_brackets):
                          f"assets: {'yes' if meta['has_bsp'] else 'MISSING'}")
         lines.append("")
 
+    external = sorted(n for n, meta in per_map_meta.items() if meta["asset_provenance"] == "external-archive")
+    if external:
+        lines.append("## Sourced from an external archive, not this workspace")
+        lines.append("")
+        lines.append("Not present in any local copy — pulled from "
+                     "[maps.quakeworld.nu](https://maps.quakeworld.nu/all/)'s public map "
+                     "archive after confirming an exact filename match. Flagged separately "
+                     "from workspace-local assets since that provenance is weaker (not "
+                     "verified byte-identical to whatever QWTF Live's own servers actually "
+                     "run) — worth a playtester's sanity check before treating as equivalent.")
+        lines.append("")
+        for n in external:
+            lines.append(f"- `{n}`")
+        lines.append("")
+
     missing_bsp = sorted(n for n, meta in per_map_meta.items() if not meta["has_bsp"])
     if missing_bsp:
-        lines.append("## Gaps — no local asset found")
+        lines.append("## Gaps — no asset found anywhere, including public archives")
         lines.append("")
-        lines.append("These are in scope but no `.bsp` exists anywhere in this workspace. "
-                     "Not invented, not silently dropped — need sourcing.")
+        lines.append("These are in scope but no `.bsp` exists in this workspace, and a check "
+                     "against maps.quakeworld.nu's own \"every known QuakeWorld map\" archive "
+                     "came up empty too. Not invented, not silently dropped — genuinely need "
+                     "sourcing from wherever QWTF Live's own servers get them.")
         lines.append("")
         for n in missing_bsp:
             lines.append(f"- `{n}`")

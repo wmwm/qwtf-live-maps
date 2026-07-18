@@ -10,3 +10,4 @@ has_bsp: true
 has_ent: false
 has_textures: false
 loc_status: author-in-map
+asset_provenance: workspace-local

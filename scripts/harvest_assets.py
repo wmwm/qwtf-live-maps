@@ -13,10 +13,18 @@ mod-wide sound/progs set to every server and client, unlike the old
 FortressOne/map-repo archive convention of bespoke per-map submissions.
 This is a deliberate scope decision, not an oversight.
 
+A handful of maps aren't sitting in any local tree — EXTERNAL_BSP_SOURCES
+is a last-resort, explicit, one-by-one fallback to a public map archive for
+those specific names only (checked by hand against maps.quakeworld.nu's
+own "every known QuakeWorld map" listing before being added here — never
+a blind bulk pull). bsp_source records "external:<url>" for these so
+map.yml/README can distinguish them from workspace-local provenance.
+
 Writes data/harvest-report.json: what got copied per map, what's missing.
 """
 import json
 import shutil
+import urllib.request
 from pathlib import Path
 
 DEV_ROOT = Path("/home/wm-dev/Development")
@@ -33,6 +41,23 @@ BSP_SRCS = [
 ENT_SRC = DEV_ROOT / "qwtf-bots-playtest/fortress/maps"
 TEX_SRC = DEV_ROOT / "wm-qwtf-client/content/configs/textures"
 OUT = Path("maps")
+
+EXTERNAL_BSP_SOURCES = {
+    # Confirmed present in maps.quakeworld.nu's full archive listing
+    # (checked 2026-07-18); elusive/fracturex2/h4rdcoremini/nightshacksb5
+    # were checked against the same listing and are genuinely absent there.
+    "box4": "https://maps.quakeworld.nu/all/box4.bsp",
+}
+
+
+def _fetch_external_bsp(name, dest):
+    url = EXTERNAL_BSP_SOURCES[name]
+    req = urllib.request.Request(url, headers={"User-Agent": "qwtf-live-maps-harvest/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = resp.read()
+    if data[0:4] not in (b"\x1d\x00\x00\x00", b"BSP2", b"2PSB"):
+        raise ValueError(f"{name}: downloaded file doesn't look like a bsp (bad magic)")
+    dest.write_bytes(data)
 
 
 def all_in_scope_maps():
@@ -56,6 +81,18 @@ def harvest():
                 entry["bsp"] = True
                 entry["bsp_source"] = str(src_dir)
                 break
+
+        if not entry["bsp"] and name in EXTERNAL_BSP_SOURCES:
+            (map_dir / "maps").mkdir(parents=True, exist_ok=True)
+            dest = map_dir / "maps" / f"{name}.bsp"
+            try:
+                _fetch_external_bsp(name, dest)
+                entry["bsp"] = True
+                entry["bsp_source"] = f"external:{EXTERNAL_BSP_SOURCES[name]}"
+            except Exception as e:
+                print(f"  ! external fetch failed for {name}: {e}")
+                if dest.exists():
+                    dest.unlink()
 
         ent_path = ENT_SRC / f"{name}.ent"
         if ent_path.exists():

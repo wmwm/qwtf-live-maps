@@ -1,5 +1,6 @@
 {
   "1on1forts": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -13,6 +14,7 @@
     "source": "rotation+logs"
   },
   "2farms": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -26,6 +28,7 @@
     "source": "rotation+logs"
   },
   "2fort5r": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -39,6 +42,7 @@
     "source": "rotation+logs"
   },
   "2machr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -52,6 +56,7 @@
     "source": "rotation+logs"
   },
   "2night3_b1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -65,6 +70,7 @@
     "source": "rotation+logs"
   },
   "3way2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -78,6 +84,7 @@
     "source": "rotation+logs"
   },
   "42smooth": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -92,6 +99,7 @@
     "source": "rotation+logs"
   },
   "5speed5": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -105,6 +113,7 @@
     "source": "rotation+logs"
   },
   "8-1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -118,6 +127,7 @@
     "source": "rotation+logs"
   },
   "alchemy": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -131,6 +141,7 @@
     "source": "rotation+logs"
   },
   "anaconda": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -144,6 +155,7 @@
     "source": "rotation+logs"
   },
   "bastion": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -157,6 +169,7 @@
     "source": "rotation+logs"
   },
   "beyonddarkness": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -170,6 +183,7 @@
     "source": "rotation+logs"
   },
   "blitzkrieg2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -186,19 +200,21 @@
     "source": "rotation+logs"
   },
   "box4": {
+    "asset_provenance": "external-archive",
     "author": "unknown",
     "brackets": [
       "3v3"
     ],
-    "has_bsp": false,
+    "has_bsp": true,
     "has_ent": false,
     "has_textures": false,
     "license_note": "community map, attribution-only (scene convention)",
-    "loc_status": "missing",
+    "loc_status": "heuristic-unreviewed",
     "play_count": 0,
     "source": "rotation-list"
   },
   "canal_b7": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -212,6 +228,7 @@
     "source": "rotation+logs"
   },
   "castlemania_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -225,6 +242,7 @@
     "source": "rotation+logs"
   },
   "castrum2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [],
     "has_bsp": true,
@@ -236,6 +254,7 @@
     "source": "logs-only"
   },
   "caverns": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -249,6 +268,7 @@
     "source": "rotation+logs"
   },
   "cyanr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -262,6 +282,7 @@
     "source": "rotation+logs"
   },
   "cyclonr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -275,6 +296,7 @@
     "source": "rotation+logs"
   },
   "desperat": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -288,6 +310,7 @@
     "source": "rotation+logs"
   },
   "disorder": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -301,6 +324,7 @@
     "source": "rotation+logs"
   },
   "dragongod2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -316,6 +340,7 @@
     "source": "rotation+logs"
   },
   "drgnfyr2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -330,6 +355,7 @@
     "source": "rotation+logs"
   },
   "echo_b1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -343,6 +369,7 @@
     "source": "rotation+logs"
   },
   "egypt": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -356,6 +383,7 @@
     "source": "rotation+logs"
   },
   "egypt3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -370,6 +398,7 @@
     "source": "rotation+logs"
   },
   "elusive": {
+    "asset_provenance": "none",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -383,6 +412,7 @@
     "source": "rotation+logs"
   },
   "etf-bigzag_b1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -396,6 +426,7 @@
     "source": "rotation+logs"
   },
   "etf_egypt": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -409,6 +440,7 @@
     "source": "rotation+logs"
   },
   "etf_miniheros": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -422,6 +454,7 @@
     "source": "rotation+logs"
   },
   "etf_xpress": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -435,6 +468,7 @@
     "source": "rotation+logs"
   },
   "excel3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -448,6 +482,7 @@
     "source": "rotation+logs"
   },
   "ff-2fort": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -461,6 +496,7 @@
     "source": "rotation+logs"
   },
   "ff-aardvark": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -475,6 +511,7 @@
     "source": "rotation+logs"
   },
   "ff-destroy3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -490,6 +527,7 @@
     "source": "rotation+logs"
   },
   "ff-ibex": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -504,6 +542,7 @@
     "source": "rotation+logs"
   },
   "ff-mortality": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -518,6 +557,7 @@
     "source": "rotation+logs"
   },
   "ff-phantomr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -532,6 +572,7 @@
     "source": "rotation+logs"
   },
   "ff-raiden": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -545,6 +586,7 @@
     "source": "rotation+logs"
   },
   "ff-schtop": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -559,6 +601,7 @@
     "source": "rotation+logs"
   },
   "ff-shoop": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -572,6 +615,7 @@
     "source": "rotation+logs"
   },
   "ff-siege": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -585,6 +629,7 @@
     "source": "rotation+logs"
   },
   "ff-swoop": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -598,6 +643,7 @@
     "source": "rotation+logs"
   },
   "fo-spiderx": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -612,6 +658,7 @@
     "source": "rotation+logs"
   },
   "fo_labs_b7": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -625,6 +672,7 @@
     "source": "rotation+logs"
   },
   "fo_smartbases_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -638,6 +686,7 @@
     "source": "rotation+logs"
   },
   "fracturex": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [],
     "has_bsp": true,
@@ -649,6 +698,7 @@
     "source": "logs-only"
   },
   "fracturex2": {
+    "asset_provenance": "none",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -662,6 +712,7 @@
     "source": "rotation-list"
   },
   "ftactic1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -675,6 +726,7 @@
     "source": "rotation+logs"
   },
   "genders2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -689,6 +741,7 @@
     "source": "rotation+logs"
   },
   "god_well": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -703,6 +756,7 @@
     "source": "rotation+logs"
   },
   "h4rdcoremini": {
+    "asset_provenance": "none",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -716,6 +770,7 @@
     "source": "rotation+logs"
   },
   "h5rdcore_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -730,6 +785,7 @@
     "source": "rotation+logs"
   },
   "haste": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -743,6 +799,7 @@
     "source": "rotation+logs"
   },
   "impactr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -756,6 +813,7 @@
     "source": "rotation+logs"
   },
   "ins3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -769,6 +827,7 @@
     "source": "rotation+logs"
   },
   "japanc": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -783,6 +842,7 @@
     "source": "rotation+logs"
   },
   "japk": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -796,6 +856,7 @@
     "source": "rotation+logs"
   },
   "lostfortress": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -809,6 +870,7 @@
     "source": "rotation+logs"
   },
   "lotus_b4": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -822,6 +884,7 @@
     "source": "rotation+logs"
   },
   "marics_ctf1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -835,6 +898,7 @@
     "source": "rotation+logs"
   },
   "middleskool": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -848,6 +912,7 @@
     "source": "rotation+logs"
   },
   "minitf2k": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -861,6 +926,7 @@
     "source": "rotation+logs"
   },
   "mountdoom": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -874,6 +940,7 @@
     "source": "rotation+logs"
   },
   "nbases_b1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2",
@@ -888,6 +955,7 @@
     "source": "rotation+logs"
   },
   "nbases_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -901,6 +969,7 @@
     "source": "rotation+logs"
   },
   "neenf": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -914,6 +983,7 @@
     "source": "rotation+logs"
   },
   "nightshacksb5": {
+    "asset_provenance": "none",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -927,6 +997,7 @@
     "source": "rotation-list"
   },
   "nightwatch2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -940,6 +1011,7 @@
     "source": "rotation+logs"
   },
   "noad2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -953,6 +1025,7 @@
     "source": "rotation+logs"
   },
   "openfirer": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4",
@@ -967,6 +1040,7 @@
     "source": "rotation+logs"
   },
   "optics6": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -980,6 +1054,7 @@
     "source": "rotation+logs"
   },
   "picnics_b3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -993,6 +1068,7 @@
     "source": "rotation-list"
   },
   "pineapple_b3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -1006,6 +1082,7 @@
     "source": "rotation+logs"
   },
   "poop": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1019,6 +1096,7 @@
     "source": "rotation+logs"
   },
   "preskool": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1032,6 +1110,7 @@
     "source": "rotation+logs"
   },
   "qbase1_b3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1045,6 +1124,7 @@
     "source": "rotation+logs"
   },
   "qu4d": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1058,6 +1138,7 @@
     "source": "rotation+logs"
   },
   "quartz_b1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "5v5"
@@ -1071,6 +1152,7 @@
     "source": "rotation+logs"
   },
   "r123": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1084,6 +1166,7 @@
     "source": "rotation+logs"
   },
   "rmanor_b6": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1097,6 +1180,7 @@
     "source": "rotation+logs"
   },
   "rs_zz1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1110,6 +1194,7 @@
     "source": "rotation+logs"
   },
   "rs_zzr": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3",
@@ -1124,6 +1209,7 @@
     "source": "rotation+logs"
   },
   "sanctuary_b9": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1137,6 +1223,7 @@
     "source": "rotation+logs"
   },
   "shank76": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1150,6 +1237,7 @@
     "source": "rotation+logs"
   },
   "smap47": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1163,6 +1251,7 @@
     "source": "rotation+logs"
   },
   "snowlake_b7": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1176,6 +1265,7 @@
     "source": "rotation+logs"
   },
   "spring_b4": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1189,6 +1279,7 @@
     "source": "rotation+logs"
   },
   "spyder": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1202,6 +1293,7 @@
     "source": "rotation+logs"
   },
   "substation_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1215,6 +1307,7 @@
     "source": "rotation+logs"
   },
   "sunnyramps": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1228,6 +1321,7 @@
     "source": "rotation+logs"
   },
   "tf2day_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -1241,6 +1335,7 @@
     "source": "rotation+logs"
   },
   "tfc-demolish_b2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -1254,6 +1349,7 @@
     "source": "rotation+logs"
   },
   "turbo": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -1267,6 +1363,7 @@
     "source": "rotation+logs"
   },
   "turtler": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "4v4"
@@ -1280,6 +1377,7 @@
     "source": "rotation+logs"
   },
   "utumno_b3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1293,6 +1391,7 @@
     "source": "rotation+logs"
   },
   "vengeance2": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "3v3"
@@ -1306,6 +1405,7 @@
     "source": "rotation+logs"
   },
   "vertex1r": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1319,6 +1419,7 @@
     "source": "rotation+logs"
   },
   "volcanic": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1332,6 +1433,7 @@
     "source": "rotation+logs"
   },
   "wc3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1345,6 +1447,7 @@
     "source": "rotation+logs"
   },
   "well6mini": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [
       "2v2"
@@ -1358,6 +1461,7 @@
     "source": "rotation+logs"
   },
   "wellgl1": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [],
     "has_bsp": true,
@@ -1369,6 +1473,7 @@
     "source": "logs-only"
   },
   "xpress3": {
+    "asset_provenance": "workspace-local",
     "author": "unknown",
     "brackets": [],
     "has_bsp": true,

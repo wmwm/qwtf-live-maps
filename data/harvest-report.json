@@ -84,8 +84,8 @@
     "textures": true
   },
   "box4": {
-    "bsp": false,
-    "bsp_source": null,
+    "bsp": true,
+    "bsp_source": "external:https://maps.quakeworld.nu/all/box4.bsp",
     "ent": false,
     "textures": false
   },

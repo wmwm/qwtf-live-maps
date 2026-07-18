@@ -7,3 +7,4 @@ has_bsp: true
 has_ent: false
 has_textures: true
 loc_status: heuristic-unreviewed
+asset_provenance: workspace-local
