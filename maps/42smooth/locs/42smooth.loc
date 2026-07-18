@@ -1,0 +1,10 @@
+808 -1507 -400 team1 spawn
+-192 -2368 -512 team1 spawn 2
+408 1187 -400 team2 spawn
+1408 2048 -512 team2 spawn 2
+586 3000 -320 team two flag
+618 -3336 -320 team one flag
+1122 1504 -208 teleporter 1
+94 -1824 -208 teleporter 2
+1248 -128 -152 teleporter 3
+-34 -192 -152 teleporter 4

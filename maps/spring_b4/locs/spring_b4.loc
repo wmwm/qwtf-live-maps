@@ -1,0 +1,52 @@
+2920 48 40 blue flagstand
+-2680 176 40 red flagstand
+-2196 156 -232 red water
+-1984 916 -24 red spiral
+-1439 185 24 red courtyard
+-1584 288 -24 red pit
+-1624 696 -312 red tunnel
+-1384 -396 168 red high spawn
+-1584 1184 24 red low spawn
+-2865 275 -56 red flagroom spiral
+-3184 -28 -232 red secret entrance
+-1272 760 24 red hall
+-856 656 168 red cappoint
+-820 248 216 red wall
+1096 8 216 blue wall
+1663 7 48 blue courtyard
+1648 596 192 blue high spawn
+3119 -64 -48 blue flagroom spiral
+2248 -716 -16 blue spiral
+1867 -37 -112 blue pit
+1899 -496 -288 blue tunnel
+2460 44 -208 blue water
+3420 232 -232 blue secret entrance
+1612 -568 24 blue hall
+2132 1096 -24 blue upper entrance
+1060 -428 168 blue cappoint
+76 80 -232 yard
+960 20 -264 blue sandbox
+-704 188 -264 red sandbox
+-2360 184 168 red upper flagroom
+2456 40 120 red upper flagroom
+-2360 184 -72 red lower flagroom
+2456 40 -120 red lower flagroom
+1288 584 24 under blue balcony
+-1032 -376 24 under red balcony
+-2120 -120 -120 red flagroom backpack
+2392 328 -120 blue flagroom backpack
+-1864 -600 24 red upper entrance
+-2120 -120 24 red flagroom high entrance
+-2584 -104 24 red flagroom upper corner
+-2584 -104 -24 red flagroom lower corner
+2776 312 -24 blue flagroom lower corner
+2776 312 24 blue flagroom upper corner
+2440 -232 24 blue flagroom above spiral
+2440 -232 -24 blue flagroom near spiral
+-2168 424 24 red flagroom above spiral
+-2168 424 -24 red flagroom near spiral
+2440 296 24 blue flagroom high entrance
+-1584 288 24 red above pit
+1816 -64 24 blue above pit
+-3056 200 -264 a really bad position
+3120 8 -288 a really bad position

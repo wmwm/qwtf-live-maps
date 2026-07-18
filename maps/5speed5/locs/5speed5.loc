@@ -1,0 +1,8 @@
+1728 -544 -64 red spawn
+-1984 -480 -64 blue spawn
+2624 -544 -112 blueflag
+-2880 -480 -112 redflag
+2272 32 -64 bluecaploc
+-2528 -1056 -64 redcap
+1472 64 160 teleporter 1
+-1728 -1088 160 teleporter 2

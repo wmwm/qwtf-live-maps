@@ -1,0 +1,53 @@
+-94 1021 271 blue battlements
+-656 1240 272 blue resupply
+768 1144 280 red battlement entrance
+-768 -1144 280 red battlement entrance
+605 1488 276 blue 2nd floor
+1174 1440 278 blue resupply room
+-867 1957 259 blue resupply room
+44 1480 270 blue grate
+5 1450 114 blue lower grate
+-65 1734 132 blue 1st level
+269 1995 131 blue 1st level hallway
+935 1935 123 blue lower ramp room
+-1 1015 104 blue lower front door
+0 0 77 outside
+-682 1931 -8 blue water entrance
+0 0 -276 water
+979 2133 262 blue higher ramp room
+-976 -2117 263 red higher ramp room
+960 2016 268 red higher ramp room
+1124 2519 265 blue top lift
+1123 2838 -195 blue bottom lift
+402 2819 -184 blue basement
+876 3828 -188 blue lower resupply room
+-182 2086 -113 blue bottom spiral
+-154 2547 91 blue mid spiral
+352 2157 267 blue top spiral
+-295 3064 -189 blue flagroom
+1077 2101 160 blue ramp room ramp
+-963 -1965 121 red lower ramp room
+1136 2144 112 red lower ramp room
+0 0 8 outside bridge
+94 -1021 271 red battlements
+656 -1240 272 red resupply
+-605 -1488 276 red 2nd floor
+-1174 -1440 278 red resupply room
+867 -1957 259 red resupply room
+-44 -1480 270 red grate
+-5 -1450 114 red lower grate
+65 -1734 132 red 1st level
+-269 -1995 131 red 1st level hallway
+1 -1015 104 red lower front door
+682 -1931 -8 red water entrance
+282 -1323 -331 red water
+-1124 -2519 265 red top lift
+-1122 -2764 -196 red bottom lift
+-1120 -3136 -192 red lower lift
+-402 -2819 -184 red basement
+-876 -3828 -188 red lower resupply room
+182 -2086 -113 red bottom spiral
+154 -2547 91 red mid spiral
+-352 -2157 267 red top spiral
+295 -3064 -189 red flagroom
+-1077 -2101 160 red  ramp room ramp

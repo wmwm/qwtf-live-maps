@@ -1,0 +1,22 @@
+720 -1672 -440 red spawn
+-132 0 -608 red spawn 2
+720 1672 -440 red spawn 3
+-1520 1672 -440 blue spawn
+-668 0 -608 blue spawn 2
+-1520 -1672 -440 blue spawn 3
+-3680 -16 -768 red flag
+2880 16 -768 blue flag
+608 0 -448 blue cap point
+-1408 0 -448 red cap point
+-1138 -26 -626 blue resupply
+344 26 -626 red resupply
+-2213 -37 -7 resupply 3
+1405 32 -7 resupply 4
+891 -1325 -477 red resupply
+-1717 -1325 -477 blue resupply
+-1717 1302 -477 blue resupply
+891 1302 -477 red resupply
+-2601 -1366 -769 blue resupply
+-2601 1366 -769 blue resupply
+1801 -1366 -769 red resupply
+1801 1366 -769 red resupply

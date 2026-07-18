@@ -1,0 +1,8 @@
+1120 -2528 320 red spawn
+-32 -240 192 red spawn 2
+1696 2400 320 blue spawn
+2848 112 192 blue spawn 2
+768 -1952 352 blue flag
+2048 1824 352 red flag
+1668 2148 64 red capture
+1148 -2276 64 blue capture

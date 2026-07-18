@@ -1,0 +1,403 @@
+{
+  "sources": {
+    "2farms": {
+      "source": "heuristic",
+      "count": 3
+    },
+    "2machr": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "2night3_b1": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "3way2": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "42smooth": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "5speed5": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "8-1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "alchemy": {
+      "source": "heuristic",
+      "count": 16
+    },
+    "anaconda": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "bastion": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "beyonddarkness": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "blitzkrieg2": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "canal_b7": {
+      "source": "author-in-map",
+      "count": 57
+    },
+    "castlemania_b2": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "castrum2": {
+      "source": "author-in-map",
+      "count": 22
+    },
+    "caverns": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "cyanr": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "cyclonr": {
+      "source": "author-in-map",
+      "count": 23
+    },
+    "desperat": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "disorder": {
+      "source": "heuristic",
+      "count": 12
+    },
+    "dragongod2": {
+      "source": "author-in-map",
+      "count": 87
+    },
+    "drgnfyr2": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "echo_b1": {
+      "source": "author-in-map",
+      "count": 40
+    },
+    "egypt": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "egypt3": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "etf-bigzag_b1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "etf_egypt": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "etf_miniheros": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "etf_xpress": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "excel3": {
+      "source": "author-in-map",
+      "count": 83
+    },
+    "ff-2fort": {
+      "source": "author-in-map",
+      "count": 53
+    },
+    "ff-aardvark": {
+      "source": "heuristic",
+      "count": 5
+    },
+    "ff-destroy3": {
+      "source": "heuristic",
+      "count": 7
+    },
+    "ff-ibex": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "ff-mortality": {
+      "source": "author-in-map",
+      "count": 43
+    },
+    "ff-phantomr": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "ff-raiden": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "ff-schtop": {
+      "source": "heuristic",
+      "count": 7
+    },
+    "ff-shoop": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "ff-siege": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "ff-swoop": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "fo-spiderx": {
+      "source": "author-in-map",
+      "count": 2
+    },
+    "fo_labs_b7": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "fo_smartbases_b2": {
+      "source": "author-in-map",
+      "count": 247
+    },
+    "fracturex": {
+      "source": "author-in-map",
+      "count": 24
+    },
+    "ftactic1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "genders2": {
+      "source": "heuristic",
+      "count": 12
+    },
+    "god_well": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "h5rdcore_b2": {
+      "source": "heuristic",
+      "count": 22
+    },
+    "haste": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "impactr": {
+      "source": "heuristic",
+      "count": 13
+    },
+    "ins3": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "japanc": {
+      "source": "heuristic",
+      "count": 5
+    },
+    "japk": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "lostfortress": {
+      "source": "heuristic",
+      "count": 16
+    },
+    "lotus_b4": {
+      "source": "author-in-map",
+      "count": 3
+    },
+    "marics_ctf1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "middleskool": {
+      "source": "author-in-map",
+      "count": 20
+    },
+    "minitf2k": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "mountdoom": {
+      "source": "author-in-map",
+      "count": 40
+    },
+    "nbases_b1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "nbases_b2": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "neenf": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "nightwatch2": {
+      "source": "author-in-map",
+      "count": 58
+    },
+    "noad2": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "openfirer": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "optics6": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "picnics_b3": {
+      "source": "author-in-map",
+      "count": 33
+    },
+    "pineapple_b3": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "poop": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "preskool": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "qbase1_b3": {
+      "source": "author-in-map",
+      "count": 44
+    },
+    "qu4d": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "quartz_b1": {
+      "source": "author-in-map",
+      "count": 67
+    },
+    "r123": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "rmanor_b6": {
+      "source": "author-in-map",
+      "count": 58
+    },
+    "rs_zz1": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "rs_zzr": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "sanctuary_b9": {
+      "source": "author-in-map",
+      "count": 74
+    },
+    "shank76": {
+      "source": "heuristic",
+      "count": 12
+    },
+    "smap47": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "snowlake_b7": {
+      "source": "author-in-map",
+      "count": 67
+    },
+    "spring_b4": {
+      "source": "author-in-map",
+      "count": 52
+    },
+    "spyder": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "substation_b2": {
+      "source": "author-in-map",
+      "count": 18
+    },
+    "sunnyramps": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "tf2day_b2": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "tfc-demolish_b2": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "turbo": {
+      "source": "heuristic",
+      "count": 10
+    },
+    "turtler": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "utumno_b3": {
+      "source": "heuristic",
+      "count": 4
+    },
+    "vengeance2": {
+      "source": "author-in-map",
+      "count": 27
+    },
+    "vertex1r": {
+      "source": "heuristic",
+      "count": 8
+    },
+    "volcanic": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "wc3": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "well6mini": {
+      "source": "author-in-map",
+      "count": 57
+    },
+    "wellgl1": {
+      "source": "heuristic",
+      "count": 6
+    },
+    "xpress3": {
+      "source": "heuristic",
+      "count": 4
+    }
+  },
+  "skipped_has_community_loc": [
+    "1on1forts",
+    "2fort5r"
+  ],
+  "no_bsp": [],
+  "unparseable": [],
+  "zero_entries": []
+}

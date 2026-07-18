@@ -1,0 +1,8 @@
+-1024 1440 232 red spawn
+-1024 736 232 red spawn 2
+1024 -1568 232 blue spawn
+1024 -864 232 blue spawn 2
+1216 1664 0 blue_flag
+-1216 -1792 0 red_flag
+-128 -960 232 red_capturepoint
+128 832 232 blue_capturepoint

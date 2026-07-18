@@ -1,0 +1,10 @@
+832 2128 -128 team1 spawn
+-512 1376 64 team1 spawn 2
+128 -2064 -128 team2 spawn
+1472 -1312 64 team2 spawn 2
+1360 3600 -384 bflag
+-400 -3536 -384 rflag
+480 928 64 bcap
+480 -864 64 rcap
+1152 1856 64 teleporter 1
+-192 -1792 64 teleporter 2

@@ -1,0 +1,12 @@
+1696 3584 488 team1 spawn
+1728 2016 80 team1 spawn 2
+32 -1920 488 team2 spawn
+0 -352 80 team2 spawn 2
+2272 2992 -152 theflag
+-544 -1328 -152 theflag
+456 2120 400 flag capture
+1272 -456 400 flag capture
+1971 3579 418 team1 resupply
+-263 -1935 418 team2 resupply
+1624 3784 -128 teleporter 1
+104 -2120 -128 teleporter 2

@@ -1,0 +1,8 @@
+272 864 -240 red spawn
+-1976 432 -280 red spawn 2
+-280 -864 -240 blue spawn
+1976 -432 -280 blue spawn 2
+-1200 882 -12 blue flag
+1200 -882 -12 red flag
+-1336 864 -12 blue cap
+1336 -864 -12 red cap

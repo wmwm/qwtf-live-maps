@@ -1,0 +1,8 @@
+-2128 -432 -256 red spawn
+-2128 432 -256 red spawn 2
+2128 432 -256 blue spawn
+2128 -432 -256 blue spawn 2
+1952 0 -200 red flag
+-1952 0 -200 blue flag
+1408 0 -40 red cap
+-1408 0 -40 blue cap

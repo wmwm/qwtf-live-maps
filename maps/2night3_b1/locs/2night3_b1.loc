@@ -1,0 +1,8 @@
+-832 -784 -256 red spawn
+-2176 760 -240 red spawn 2
+2528 968 -256 blue spawn
+3872 -576 -240 blue spawn 2
+-3328 992 -496 blue flag
+5024 -808 -496 red flag
+-2048 -768 -280 teleporter 1
+3768 960 -280 teleporter 2

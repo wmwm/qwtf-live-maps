@@ -1,0 +1,6 @@
+928 1248 200 red spawn
+-928 1248 200 red spawn 2
+928 -1248 200 blue spawn
+-928 -1248 200 blue spawn 2
+0 1472 616 blue flag
+0 -1472 616 red flag

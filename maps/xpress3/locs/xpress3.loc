@@ -1,0 +1,4 @@
+2128 -432 -184 team1 spawn
+2128 432 -192 team1 spawn 2
+-2128 -432 -184 team2 spawn
+-2128 432 -192 team2 spawn 2

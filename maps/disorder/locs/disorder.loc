@@ -1,0 +1,12 @@
+-616 536 -80 team1 spawn
+488 536 -80 team1 spawn 2
+488 -792 -80 team2 spawn
+-616 -792 -80 team2 spawn 2
+-64 -2848 64 flag_two
+-64 2592 56 flag_one
+-64 1152 54 cappoint_one
+-64 -1408 53 cappoint_two
+-832 2112 88 teleporter 1
+704 2112 88 teleporter 2
+704 -2368 88 teleporter 3
+-832 -2368 88 teleporter 4

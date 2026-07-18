@@ -1,0 +1,43 @@
+11 188 104 outside bridge
+968 188 104 outside
+-968 188 104 outside
+1408 110 104 red front door
+1440 608 168 red front door ramp
+-1440 -232 168 red front door ramp
+1831 1019 232 red entrance hallway
+2165 423 212 red lower lobby
+1800 -296 200 red lower respawn
+1552 -448 256 red bottom lift
+1708 -422 408 red top lift
+1792 269 408 red lobby catwalk
+1912 856 416 red cap point
+2348 1083 568 red 2nd floor
+2043 -35 568 red 2nd floor
+1424 403 531 red sniper deck
+-1428 168 516 red sniper deck
+2840 1000 576 red 2nd floor respawn
+1987 -155 -168 red water entrance
+648 -172 -512 red water entrance
+0 188 -208 water
+2760 568 272 red lower lobby ramp
+3099 786 336 red flagroom entrance
+3427 1663 282 red flagroom
+3472 1691 -35 red flagroom water
+-3472 -1315 -35 blue flagroom water
+-3427 -1287 282 blue flagroom
+-3099 -410 336 blue flagroom entrance
+-2760 -192 272 blue lower lobby ramp
+-2348 -707 568 blue 2nd floor
+-2043 411 568 blue 2nd floor
+-2840 -624 576 blue 2nd floor respawn
+-1416 -416 560 blue sniper deck
+-2165 -47 212 blue lower lobby
+-1973 526 -173 blue water entrance
+-480 552 -536 blue water entrance
+-1800 672 200 blue lower respawn
+-1520 808 205 blue bottom lift
+-1408 266 104 blue front door
+-1720 773 408 blue top lift
+-1792 107 408 blue lobby catwalk
+-1912 -480 416 blue cap point
+-1831 -643 232 blue entrance hallway

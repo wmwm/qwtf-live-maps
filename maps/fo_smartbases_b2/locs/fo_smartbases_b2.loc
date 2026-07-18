@@ -1,0 +1,247 @@
+0 0 361 outside overhead bridge (centre)
+-386 318 387 outside overhead bridge (red side)
+-493 800 48 red sniper deck lift (lower)
+-493 800 319 red sniper deck lift (upper)
+-379 941 367 red sniper deck ramp
+-794 865 425 red sniper deck (covered area)
+-399 1083 419 red sniper deck (above ramp)
+7 1046 420 red sniper deck
+343 1063 429 red sniper deck side entrance
+611 967 59 red base main entrance
+564 732 46 red base main entrance grass area
+618 396 63 red outside path
+589 -23 50 red outside path (corner by bridge)
+270 -16 47 red outside path (next to bridge)
+346 308 42 red outside path (by overhead bridge support)
+-275 689 44 red outside grass (by red sniper deck lift)
+-489 464 54 red outside grass (by overhead bridge support)
+-773 334 46 red outside grass (by blue path)
+923 1081 126 side gap by red main entrance
+5 251 -52 red outside canal (by low bridge)
+-16 646 -41 red outside canal (by water entrance)
+-5 936 -43 red water entrance
+-2 477 -68 red outside canal
+559 1037 415 red sniper deck side entrance room
+567 1302 419 red sniper deck main passage
+790 1414 427 red sniper deck side passage
+1019 1564 423 red sniper deck side passage balcony
+611 1243 57 red main entrance foyer
+293 1277 44 red main entrance foyer (by resupply room bridge)
+-7 1274 71 red water entrance resupply room bridge
+0 1229 -63 red water entrance canal (under resupply room bridge)
+-2 1096 -64 red water entrance canal
+-8 1436 -51 red water entrance canal (by tunnel entrance)
+0 1611 -44 red water tunnel entrance
+-2 1987 -150 red water tunnel (at lowest point)
+-7 2350 -64 red water tunnel (by corner room)
+6 2612 -6 red corner room canal
+1032 1453 143 red front lift room ramp to main atrium
+1000 1708 164 red main atrium raised walkway (by lift)
+1036 1920 164 red main atrium raised walkway (by resupply door)
+870 1948 154 red main atrium raised walkway (above logo square)
+840 1726 91 red main atrium raised walkway lift
+596 1595 43 red main atrium front entrance
+601 1750 38 red main atrium (between lifts)
+605 1913 42 red main atrium logo square
+633 2216 34 red main atrium (behind logo square)
+984 2205 35 red main atrium cul de sac (below raised walkway)
+392 2083 32 red main atrium (by corner room entrance)
+281 2091 37 red main atrium corner room entrance
+388 1732 47 red main atrium lift to upper walkway (lower)
+388 1732 411 red main atrium lift to upper walkway (upper)
+388 1732 188 red main atrium lift to upper walkway
+495 1822 420 red main atrium upper walkway (by lift)
+581 1881 414 red main atrium upper walkway
+266 1890 420 red upper passage entrance
+188 2245 421 red upper passage
+241 2590 423 red upper passage junction (by lift)
+-40 2605 436 red upper passage junction (by upper tunnels room)
+382 2600 419 red upper passage junction (at dead end)
+-257 1260 443 red sniper deck passage to upper tunnels (by sniper deck)
+-265 1548 446 red sniper deck passage to upper tunnels
+-285 1851 426 red sniper deck passage to upper tunnels (by tunnel)
+-360 2190 426 red upper tunnel
+-325 2600 439 red upper tunnels room
+-359 2893 432 red upper tunnel into flag room
+198 2232 35 red corner room passage
+6 2401 67 red corner room bridge
+130 2705 40 red corner room canal walkway
+214 2417 42 red corner room (by resupply room passage)
+627 2436 40 red corner room resupply room passage
+1018 2435 38 red corner room resupply room passage (by door)
+-141 2396 46 red flag room lower entrance
+-151 2607 -64 red flag room water entrance
+-261 2609 -69 red flag room canal (by water entrance)
+-450 2588 -67 red flag room canal (by canal bridge)
+-626 2603 -72 red flag room canal (under canal bridge)
+-935 2607 -64 red flag room canal (under bridge ramps)
+-1348 2604 -62 red flag room canal rear tunnel
+-250 2382 45 red flag room lower walkway (by ladder - resupply side)
+-598 2412 37 red flag room lower walkway (by canal bridge - resupply side)
+-972 2340 31 red flag room lower walkway (under ramps - resupply side)
+-241 2842 28 red flag room lower walkway (by ladder - back hall side)
+-591 2802 47 red flag room lower walkway (by canal bridge - back hall side)
+-978 2848 32 red flag room lower walkway (under ramps - back hall side)
+-681 2600 61 red flag room canal bridge
+-962 2609 120 red flag room canal bridge ramps (at junction)
+-987 2851 170 red flag room canal bridge ramp (back hall side)
+-998 2364 179 red flag room canal bridge ramp (resupply side)
+-216 3067 198 red flag room upper walkway (above ladder - back hall side)
+-361 3071 194 red flag room upper walkway (below tunnel - back hall side)
+-515 3097 196 red flag room upper walkway (by back hall entrance)
+-782 3081 196 red flag room upper walkway (back hall side)
+-989 3074 198 red flag room upper walkway (by ramp - back hall side)
+-1362 3085 192 red flag room upper walkway (below flag - back hall side)
+-1664 3083 201 red flag room upper walkway (by flag ramp - back hall side)
+-1649 2862 302 red flag platform ramp (back hall side)
+-1623 2611 379 red flag platform ramps junction
+-1644 2322 272 red flag platform ramp (resupply side)
+-1639 2108 210 red flag room upper walkway (by flag ramp - resupply side)
+-1355 2126 201 red flag room upper walkway (below flag - resupply side)
+-1007 2147 189 red flag room upper walkway (by ramp - resupply side)
+-741 2143 196 red flag room upper walkway (resupply side)
+-504 2104 202 red flag room upper walkway (by resupply room entrance)
+-257 2151 202 red flag room upper walkway (above ladder - resupply side)
+-1820 2613 463 red flag platform (by back logo wall)
+-1215 2602 375 red flag platform (at flag stand)
+-1364 2882 354 red flag platform (back hall side)
+-1357 2356 362 red flag platform (resupply side)
+-1475 2620 366 red flag platform
+-512 3235 200 red back hall entrance
+-393 3316 193 red back hall (by flag room entrance)
+-136 3322 203 red back hall
+246 3313 199 red back hall (by corner)
+252 2983 190 red back hall (by lift)
+252 2762 202 red back hall lift (lower)
+252 2762 429 red back hall lift (upper)
+1160 2170 89 red side resupply room door
+1348 2138 137 red side resupply room
+-330 1281 42 red front resupply room door
+-505 1901 40 red front resupply room lift
+-505 1901 228 red front resupply room (by flag room door)
+-649 1160 51 red front resupply room
+702 2248 336 red main atrium ledge
+386 -318 387 outside overhead bridge (blue side)
+493 -800 48 blue sniper deck lift (lower)
+493 -800 319 blue sniper deck lift (upper)
+379 -941 367 blue sniper deck ramp
+794 -865 425 blue sniper deck (covered area)
+399 -1083 419 blue sniper deck (above ramp)
+-7 -1046 420 blue sniper deck
+-343 -1063 429 blue sniper deck side entrance
+-611 -967 59 blue base main entrance
+-564 -732 46 blue base main entrance grass area
+-618 -396 63 blue outside path
+-589 23 50 blue outside path (corner by bridge)
+7 16 43 blue outside path (next to bridge)
+-22 11 67 outside low bridge
+-346 -308 42 blue outside path (by overhead bridge support)
+275 -689 44 blue outside grass (by blue sniper deck lift)
+489 -464 54 blue outside grass (by overhead bridge support)
+773 -334 46 blue outside grass (by blue path)
+-923 -1081 126 side gap by blue main entrance
+-6 -13 -76 outside canal (under low bridge)
+-5 -251 -52 blue outside canal (by low bridge)
+16 -646 -41 blue outside canal (by water entrance)
+5 -936 -43 blue water entrance
+2 -477 -68 blue outside canal
+-559 -1037 415 blue sniper deck side entrance room
+-567 -1302 419 blue sniper deck main passage
+-790 -1414 427 blue sniper deck side passage
+-1019 -1564 423 blue sniper deck side passage balcony
+-611 -1243 57 blue main entrance foyer
+-293 -1277 44 blue main entrance foyer (by resupply room bridge)
+7 -1274 71 blue water entrance resupply room bridge
+0 -1229 -63 blue water entrance canal (under resupply room bridge)
+2 -1096 -64 blue water entrance canal
+8 -1436 -51 blue water entrance canal (by tunnel entrance)
+0 -1611 -44 blue water tunnel entrance
+2 -1987 -150 blue water tunnel (at lowest point)
+7 -2350 -64 blue water tunnel (by corner room)
+-6 -2612 -6 blue corner room canal
+-1032 -1453 143 blue front lift room ramp to main atrium
+-1000 -1708 164 blue main atrium raised walkway (by lift)
+-1036 -1920 164 blue main atrium raised walkway (by resupply door)
+-870 -1948 154 blue main atrium raised walkway (above logo square)
+-840 -1726 91 blue main atrium raised walkway lift
+-596 -1595 43 blue main atrium front entrance
+-601 -1750 38 blue main atrium (between lifts)
+-605 -1913 42 blue main atrium logo square
+-633 -2216 34 blue main atrium (behind logo square)
+-984 -2205 35 blue main atrium cul de sac (below raised walkway)
+-392 -2083 32 blue main atrium (by corner room entrance)
+-281 -2091 37 blue main atrium corner room entrance
+-388 -1732 47 blue main atrium lift to upper walkway (lower)
+-388 -1732 411 blue main atrium lift to upper walkway (upper)
+-388 -1732 188 blue main atrium lift to upper walkway
+-495 -1822 420 blue main atrium upper walkway (by lift)
+-581 -1881 414 blue main atrium upper walkway
+-266 -1890 420 blue upper passage entrance
+-188 -2245 421 blue upper passage
+-241 -2590 423 blue upper passage junction (by lift)
+40 -2605 436 blue upper passage junction (by upper tunnels room)
+-382 -2600 419 blue upper passage junction (at dead end)
+257 -1260 443 blue sniper deck passage to upper tunnels (by sniper deck)
+265 -1548 446 blue sniper deck passage to upper tunnels
+285 -1851 426 blue sniper deck passage to upper tunnels (by tunnel)
+360 -2190 426 blue upper tunnel
+325 -2600 439 blue upper tunnels room
+359 -2893 432 blue upper tunnel into flag room
+-198 -2232 35 blue corner room passage
+-6 -2401 67 blue corner room bridge
+-130 -2705 40 blue corner room canal walkway
+-214 -2417 42 blue corner room (by resupply room passage)
+-627 -2436 40 blue corner room resupply room passage
+-1018 -2435 38 blue corner room resupply room passage (by door)
+141 -2396 46 blue flag room lower entrance
+151 -2607 -64 blue flag room water entrance
+261 -2609 -69 blue flag room canal (by water entrance)
+450 -2588 -67 blue flag room canal (by canal bridge)
+626 -2603 -72 blue flag room canal (under canal bridge)
+935 -2607 -64 blue flag room canal (under bridge ramps)
+1348 -2604 -62 blue flag room canal rear tunnel
+250 -2382 45 blue flag room lower walkway (by ladder - resupply side)
+598 -2412 37 blue flag room lower walkway (by canal bridge - resupply side)
+972 -2340 31 blue flag room lower walkway (under ramps - resupply side)
+241 -2842 28 blue flag room lower walkway (by ladder - back hall side)
+591 -2802 47 blue flag room lower walkway (by canal bridge - back hall side)
+978 -2848 32 blue flag room lower walkway (under ramps - back hall side)
+681 -2600 61 blue flag room canal bridge
+962 -2609 120 blue flag room canal bridge ramps (at junction)
+987 -2851 170 blue flag room canal bridge ramp (back hall side)
+998 -2364 179 blue flag room canal bridge ramp (resupply side)
+216 -3067 198 blue flag room upper walkway (above ladder - back hall side)
+361 -3071 194 blue flag room upper walkway (below tunnel - back hall side)
+515 -3097 196 blue flag room upper walkway (by back hall entrance)
+782 -3081 196 blue flag room upper walkway (back hall side)
+989 -3074 198 blue flag room upper walkway (by ramp - back hall side)
+1362 -3085 192 blue flag room upper walkway (below flag - back hall side)
+1664 -3083 201 blue flag room upper walkway (by flag ramp - back hall side)
+1649 -2862 302 blue flag platform ramp (back hall side)
+1623 -2611 379 blue flag platform ramps junction
+1644 -2322 272 blue flag platform ramp (resupply side)
+1639 -2108 210 blue flag room upper walkway (by flag ramp - resupply side)
+1355 -2126 201 blue flag room upper walkway (below flag - resupply side)
+1007 -2147 189 blue flag room upper walkway (by ramp - resupply side)
+741 -2143 196 blue flag room upper walkway (resupply side)
+504 -2104 202 blue flag room upper walkway (by resupply room entrance)
+257 -2151 202 blue flag room upper walkway (above ladder - resupply side)
+1820 -2613 463 blue flag platform (by back logo wall)
+1215 -2602 375 blue flag platform (at flag stand)
+1364 -2882 354 blue flag platform (back hall side)
+1357 -2356 362 blue flag platform (resupply side)
+1475 -2620 366 blue flag platform
+512 -3235 200 blue back hall entrance
+393 -3316 193 blue back hall (by flag room entrance)
+136 -3322 203 blue back hall
+-246 -3313 199 blue back hall (by corner)
+-252 -2983 190 blue back hall (by lift)
+-252 -2762 202 blue back hall lift (lower)
+-252 -2762 429 blue back hall lift (upper)
+-1160 -2170 89 blue side resupply room door
+-1348 -2138 137 blue side resupply room
+330 -1281 42 blue front resupply room door
+505 -1901 40 blue front resupply room lift
+505 -1901 228 blue front resupply room (by flag room door)
+649 -1160 51 blue front resupply room
+-702 -2248 336 blue main atrium ledge

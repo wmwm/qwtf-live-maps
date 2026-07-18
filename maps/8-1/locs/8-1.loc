@@ -1,0 +1,6 @@
+512 4032 224 red spawn
+512 -4032 224 blue spawn
+512 -3072 240 red flag
+512 3072 240 blue flag
+512 -3072 224 red capture
+512 3072 224 blue capture

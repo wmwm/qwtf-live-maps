@@ -1,0 +1,13 @@
+-1192 66 -40 red spawn
+-3192 59 64 red spawn 2
+-1920 582 70 red spawn 3
+-1912 -456 136 red spawn 4
+1192 62 -40 blue spawn
+3192 69 64 blue spawn 2
+1920 -454 70 blue spawn 3
+1912 584 136 blue spawn 4
+2512 64 -224 red flag
+-2512 64 -224 blue flag
+3344 55 15 blue resupply
+-3344 73 15 red resupply
+116 -632 1864 teleporter

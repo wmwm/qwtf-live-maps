@@ -1,0 +1,10 @@
+-2864 -1736 -40 red spawn
+2864 1736 -40 blue spawn
+3520 -112 4 red flag
+-3520 112 4 blue flag
+1352 0 176 red cap
+-1352 0 176 blue cap
+-2720 -288 96 teleporter 1
+-1344 752 160 teleporter 2
+2720 288 96 teleporter 3
+1344 -752 160 teleporter 4

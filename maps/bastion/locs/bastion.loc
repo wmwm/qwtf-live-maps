@@ -1,0 +1,8 @@
+-2128 688 608 red spawn
+-704 -1232 608 red spawn 2
+2128 -688 608 blue spawn
+704 1232 608 blue spawn 2
+2368 1216 640 red flag
+-2368 -1216 640 blue flag
+1504 -160 640 red capture
+-1504 160 640 blue capture

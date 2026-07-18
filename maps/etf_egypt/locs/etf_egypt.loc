@@ -1,0 +1,8 @@
+-1176 680 216 red spawn
+-1224 1592 216 red spawn 2
+1176 -680 216 blue spawn
+1224 -1592 216 blue spawn 2
+-1376 -2292 -32 red flag
+1376 2292 -32 blue flag
+-128 -896 216 red cap
+128 896 216 blue cap

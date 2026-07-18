@@ -1,0 +1,12 @@
+896 -1408 -128 red spawn
+-896 -1408 -128 red spawn 2
+-384 -2944 -128 red spawn 3
+384 -2944 -128 red spawn 4
+-384 2944 -128 blue spawn
+384 2944 -128 blue spawn 2
+-896 1408 -128 blue spawn 3
+896 1408 -128 blue spawn 4
+0 -3808 192 blue flag
+0 3808 192 red flag
+0 1440 288 red cap point
+0 -1440 288 blue cap point

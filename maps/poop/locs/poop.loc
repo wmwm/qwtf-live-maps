@@ -1,0 +1,10 @@
+1236 788 256 team1 spawn
+572 768 192 team1 spawn 2
+1312 -476 256 team1 spawn 3
+576 -96 192 team1 spawn 4
+-1596 -162 192 team2 spawn
+-1600 702 192 team2 spawn 2
+-2260 -182 256 team2 spawn 3
+-2336 1082 256 team2 spawn 4
+-1992 278 296 teleporter 1
+968 328 312 teleporter 2
