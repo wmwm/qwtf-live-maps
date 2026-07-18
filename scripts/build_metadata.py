@@ -111,6 +111,20 @@ def build_readme(per_map_meta, map_brackets):
     lines.append("people actually playing, cross-checked against "
                  "[logs.qwtf.live](https://logs.qwtf.live/).")
     lines.append("")
+    lines.append("## Most played, by real match count")
+    lines.append("")
+    lines.append("Not a vibe, actual logs.qwtf.live match history at the time this was last "
+                 "generated:")
+    lines.append("")
+    ranked = sorted(
+        ((n, m) for n, m in per_map_meta.items() if m["play_count"]),
+        key=lambda nm: -nm[1]["play_count"],
+    )
+    for i, (n, m) in enumerate(ranked[:10], 1):
+        brackets = "/".join(m["brackets"]) if m["brackets"] else "unlisted"
+        lines.append(f"{i}. **`{n}`** — {m['play_count']} matches ({brackets})")
+    lines.append("")
+
     lines.append("## Map status legend")
     lines.append("")
     lines.append("- **loc status**: `author-in-map` (extracted from the map's own built-in "

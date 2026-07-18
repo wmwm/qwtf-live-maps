@@ -5,6 +5,21 @@ Not an archive of every map ever made for QuakeWorld Team Fortress —
 scoped to the current competitive rotation and what real matches show
 people actually playing, cross-checked against [logs.qwtf.live](https://logs.qwtf.live/).
 
+## Most played, by real match count
+
+Not a vibe, actual logs.qwtf.live match history at the time this was last generated:
+
+1. **`ff-phantomr`** — 398 matches (3v3/4v4)
+2. **`ff-schtop`** — 355 matches (4v4/5v5)
+3. **`ff-destroy3`** — 343 matches (3v3/4v4/5v5)
+4. **`japanc`** — 340 matches (3v3/4v4)
+5. **`rs_zzr`** — 320 matches (3v3/4v4)
+6. **`openfirer`** — 317 matches (4v4/5v5)
+7. **`ff-swoop`** — 217 matches (4v4)
+8. **`h5rdcore_b2`** — 180 matches (3v3/4v4)
+9. **`blitzkrieg2`** — 171 matches (2v2/3v3/4v4/5v5)
+10. **`egypt3`** — 125 matches (2v2/3v3)
+
 ## Map status legend
 
 - **loc status**: `author-in-map` (extracted from the map's own built-in location entities — highest confidence), `community` (hand-authored, imported from the wider QW scene), `heuristic-unreviewed` (auto-generated from spawn/flag/item positions plus author-placed ambient sound markers, needs a playtester's eyes), `missing`.
