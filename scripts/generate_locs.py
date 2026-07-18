@@ -146,6 +146,41 @@ def team_colors_from_flags(ents):
     return colors
 
 
+# Author-placed ambient sound markers have no name field, but the
+# classname itself is a real signal — the mapper put a lava-pit sound
+# there because there's an actual lava pit there. Translating these to
+# plain labels is still a judgment call (hence still "heuristic"), but
+# it's grounded in something the author actually placed, not a guess from
+# spawn/flag geometry alone.
+AMBIENT_LABELS = {
+    "ambient_suck_wind": "wind vent",
+    "ambient_drip": "dripping water",
+    "ambient_lavapit": "lava pit",
+    "ambient_swamp1": "swamp",
+    "ambient_peakwind": "windy peak",
+    "ambient_comp_hum": "computer room",
+    "ambient_flouro_buzz": "flickering light",
+    "ambient_light_buzz": "flickering light",
+    "ambient_brook": "brook",
+}
+
+
+def extract_ambient_landmarks(ents):
+    by_label = {}
+    for e in ents:
+        label = AMBIENT_LABELS.get(e.get("classname"))
+        if not label:
+            continue
+        o = origin_of(e)
+        if o:
+            by_label.setdefault(label, []).append(o)
+    lines = []
+    for label, pts in by_label.items():
+        for cl in cluster_points(pts, threshold=CLUSTER_THRESHOLD):
+            lines.append((centroid(cl), label))
+    return lines
+
+
 def generate_locs(name, ents):
     lines = []
     team_colors = team_colors_from_flags(ents)
@@ -202,12 +237,31 @@ def generate_locs(name, ents):
         if o:
             lines.append((o, "teleporter" + (f" {i}" if len(dests) > 1 else "")))
 
+    # thematic ambient-sound markers (lava pit, swamp, wind vent, ...)
+    lines.extend(extract_ambient_landmarks(ents))
+
     return lines
+
+
+def dedupe_lines(lines):
+    """Drop exact (rounded-coordinate, name) duplicates that can arise when
+    a point is legitimately reachable from more than one extraction path.
+    Deliberately keeps distinct names at similar coordinates — a real map
+    can have two meaningfully different callouts a few units apart."""
+    seen = set()
+    out = []
+    for (x, y, z), name in lines:
+        key = (int(x), int(y), int(z), name)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(((x, y, z), name))
+    return out
 
 
 def write_loc_file(path, lines):
     with open(path, "wb") as f:
-        for (x, y, z), name in lines:
+        for (x, y, z), name in dedupe_lines(lines):
             f.write(f"{int(x)} {int(y)} {int(z)} {name}\r\n".encode("latin-1"))
 
 

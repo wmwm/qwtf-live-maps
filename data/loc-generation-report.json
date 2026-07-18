@@ -2,11 +2,11 @@
   "sources": {
     "2farms": {
       "source": "heuristic",
-      "count": 3
+      "count": 6
     },
     "2machr": {
       "source": "heuristic",
-      "count": 6
+      "count": 7
     },
     "2night3_b1": {
       "source": "heuristic",
@@ -42,7 +42,7 @@
     },
     "beyonddarkness": {
       "source": "heuristic",
-      "count": 8
+      "count": 9
     },
     "blitzkrieg2": {
       "source": "heuristic",
@@ -114,7 +114,7 @@
     },
     "etf_miniheros": {
       "source": "heuristic",
-      "count": 8
+      "count": 10
     },
     "etf_xpress": {
       "source": "heuristic",
@@ -166,7 +166,7 @@
     },
     "ff-swoop": {
       "source": "heuristic",
-      "count": 6
+      "count": 8
     },
     "fo-spiderx": {
       "source": "author-in-map",
@@ -202,7 +202,7 @@
     },
     "haste": {
       "source": "heuristic",
-      "count": 8
+      "count": 10
     },
     "impactr": {
       "source": "heuristic",
@@ -358,7 +358,7 @@
     },
     "turbo": {
       "source": "heuristic",
-      "count": 10
+      "count": 11
     },
     "turtler": {
       "source": "heuristic",
