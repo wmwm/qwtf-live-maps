@@ -5,8 +5,6 @@ Not an archive of every map ever made for QuakeWorld Team Fortress —
 scoped to the current competitive rotation and what real matches show
 people actually playing, cross-checked against [logs.qwtf.live](https://logs.qwtf.live/).
 
-See `docs/superpowers/specs/2026-07-18-qwtf-live-maps-design.md` for the full phase 1 design and scope decisions.
-
 ## Map status legend
 
 - **loc status**: `author-in-map` (extracted from the map's own built-in location entities — highest confidence), `community` (hand-authored, imported from the wider QW scene), `heuristic-unreviewed` (auto-generated from spawn/flag/item positions, needs a playtester's eyes), `missing`.
